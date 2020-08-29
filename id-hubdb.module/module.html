@@ -11,10 +11,10 @@
 {% set groups = grouping ? rows|groupby(grouping) : rows %} {# list => grouperObject| list#}
 {# function #}
 {% macro unwrap(objs, props) %}
-  {# container; [array, {tag, innerText} #}
+{# container; [array, {tag, innerText} #}
   {% for obj in objs %}
     {% for prop in props %}
-			{{text(obj[prop])}}
+      {{text(obj[prop])}}
     {% endfor %}
   {% endfor %}
 {% endmacro %}
@@ -29,17 +29,17 @@
 {% endmacro %}
 {# end template_partials #}
 {% macro the_loop( content ) %}
-	{% set content = content.grouperObject[0] ? {'group':content.grouperObject[0],'list':content.list} : content %}
-  {{module.template}}
+{% set content = content.grouperObject[0] ? {'group':content.grouperObject[0],'list':content.list} : content %}
+{{module.template}}
 {% endmacro %}
 {# HTML #}
 <div class="container">
-		<div class="{{module.layout}}">
-			{% for group in groups %}
-				<div class="{{view}}">
-					{{ the_loop( group ) }}
-				</div>
-			{% endfor %}
-		</div>
+  <div class="{{module.layout}}">
+    {% for group in groups %}
+    <div class="{{view}}">
+      {{ the_loop( group ) }}
+    </div>
+    {% endfor %}
+  </div>
 </div>
 {# updated #}
