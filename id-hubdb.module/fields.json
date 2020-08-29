@@ -1,0 +1,81 @@
+[ {
+  "id" : "428c2b3b-9345-a1dd-4df1-aa96a7abd797",
+  "name" : "hubdbtable_field",
+  "label" : "HubDB table",
+  "required" : false,
+  "locked" : false,
+  "type" : "hubdbtable",
+  "default" : null
+}, {
+  "id" : "76494803-3848-4673-eae0-548442d0e2a9",
+  "name" : "text_field",
+  "label" : "Filter Query",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "visibility" : {
+    "controlling_field" : "428c2b3b-9345-a1dd-4df1-aa96a7abd797",
+    "controlling_value_regex" : null,
+    "operator" : "NOT_EMPTY",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : null
+}, {
+  "id" : "f874ab05-8c6e-6aa6-999d-d7e6253259b2",
+  "name" : "grouping",
+  "label" : "Group By",
+  "help_text" : "Typically foreign key in HubDB",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : null
+}, {
+  "id" : "bf1e3816-d6e5-131a-43e7-773ec2c8301b",
+  "name" : "display_type",
+  "label" : "Display",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "content-card", "Cards" ], [ "lists", "Lists" ], [ "tables", "Tables" ] ],
+  "type" : "choice",
+  "default" : "lists"
+}, {
+  "id" : "17b430cb-65dc-aa5a-1505-e98123c421e8",
+  "name" : "layout",
+  "label" : "Layout",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "grid", "Grid" ], [ "flex", "Flex" ] ],
+  "type" : "choice",
+  "default" : "grid"
+}, {
+  "id" : "858573c4-42a4-6cda-4b74-c325b7951e1e",
+  "name" : "columns",
+  "label" : "Columns",
+  "required" : false,
+  "locked" : false,
+  "display" : "text",
+  "min" : 1,
+  "max" : 4,
+  "step" : 1,
+  "type" : "number",
+  "default" : 3
+}, {
+  "id" : "691cebb8-6b4c-9f62-8970-b85b9cb75d09",
+  "name" : "template",
+  "label" : "Template",
+  "help_text" : "img | text | unwrap",
+  "inline_help_text" : "{{content[group,list]}}",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "{{content}}"
+} ]
