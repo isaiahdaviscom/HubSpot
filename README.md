@@ -6,12 +6,5 @@ https://docs.npmjs.com/misc/scripts
 ## CMS CLI
 https://developers.hubspot.com/docs/cms/developer-reference/local-development-cms-cli
 
-### help
-Show all commands.
-
-Instructions for deploying on your HubSpot
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
+Follow Me @
+https://medium.com/@isaiahdavism/
