@@ -19,10 +19,10 @@
   {% endfor %}
 {% endmacro %}
 {# template_partials #}
-{% macro img(src, class, container, container_class) %}
-<div class="content-card-image">
-  <img class="{{class}}" src="{{src}}">
-</div>
+{% macro img(src, class) %}
+  <div class="content-card-image">
+    <img class="{{class}}" src="{{src}}">
+  </div>
 {% endmacro %}
 {% macro html(value) %}
   <div>{{value}}</div>
