@@ -69,6 +69,17 @@
   "type" : "number",
   "default" : 3
 }, {
+  "id" : "d1b0645f-1d98-6c1b-acf9-52d668910bf7",
+  "name" : "classes",
+  "label" : "Classes",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : null
+}, {
   "id" : "691cebb8-6b4c-9f62-8970-b85b9cb75d09",
   "name" : "template",
   "label" : "Template",

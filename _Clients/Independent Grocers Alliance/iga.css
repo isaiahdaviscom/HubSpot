@@ -71,7 +71,6 @@
 {% set g12_c1 = "#fb8a2a" %}
 {% set g12_c2 = "#dadc21" %}
 {# Core #}
-
 {% if text_font_type == 'google' and heading_font_type == 'google' %}
     {% set tff = text_font_family|split(',') %}
     {% set hff = heading_font_family|split(',') %}
