@@ -24,7 +24,8 @@
 .flex > div {
   flex-shrink: 0;
   gap: 12px;
-	display: flex;
+  display: flex;
+  margin: 12px auto;
 }
 
 .grid > div img {

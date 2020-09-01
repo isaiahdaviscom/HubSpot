@@ -24,19 +24,19 @@
   <img class="{{class}}" src="{{src}}">
 </div>
 {% endmacro %}
-{% macro text(value) %}
-<p>{{value}}</p>
+{% macro html(value) %}
+  <div>{{value}}</div>
 {% endmacro %}
 {# end template_partials #}
 {% macro the_loop( content ) %}
 {% set content = content.grouperObject[0] ? {'group':content.grouperObject[0],'list':content.list} : content %}
-{{module.template}}
+  {{module.template}}
 {% endmacro %}
 {# HTML #}
 <div class="container">
   <div class="{{module.layout}}">
     {% for group in groups %}
-    <div class="{{view}}">
+    <div class="{{view}} content-card">
       {{ the_loop( group ) }}
     </div>
     {% endfor %}
