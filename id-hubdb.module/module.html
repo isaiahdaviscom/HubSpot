@@ -1,6 +1,7 @@
 {# contentcard - horizontal > IMAGE right or left | vertical > IMAGE top or bottom #}
 {# Templated | Override > true | false #}
 {# global variables #}
+{% set block_elem = [ "address", "article", "aside", "blockquote", "canvas", "dd", "div", "dl", "dt", "fieldset", "figcaption", "figure", "footer", "form", "h1", "h2", "h3", "h4", "h5", "h6", "header", "hr", "li", "main", "nav", "noscript", "ol", "p", "pre", "section", "table", "tfoot", "ul", "video" ] %}
 {% set tableId = module.hubdbtable_field %}
 {% set classes = module.classes %}
 {% set filterQuery = module.text_field %}
@@ -10,9 +11,8 @@
 {% set columns = module.columns %}
 {% set rows = hubdb_table_rows(tableId, filterQuery) %} {# list #}
 {% set groups = grouping ? rows|groupby(grouping) : rows %} {# list => grouperObject| list#}
-{# function #}
+{# support functions #}
 {% macro unwrap(objs, props) %}
-{# container; [array, {tag, innerText} #}
   {% for obj in objs %}
     {% for prop in props %}
       {{text(obj[prop])}}
@@ -20,13 +20,16 @@
   {% endfor %}
 {% endmacro %}
 {# template_partials #}
-{% macro img(src, class) %}
-  <div class="content-card-image">
+{% macro img(src, class, parent_class) %}
+  <div class={{parent_class}}>
     <img class="{{class}}" src="{{src}}">
   </div>
 {% endmacro %}
-{% macro html(value) %}
-  <div>{{value}}</div>
+{% macro html(value, class, parent_class) %}
+  <div class={{parent_class}}>
+    {% set custom = value|regex_replace("&gt;", ">")|regex_replace("&lt;", "<") %}
+    {{custom}}
+  </div>
 {% endmacro %}
 {# end template_partials #}
 {% macro the_loop( content ) %}
@@ -43,4 +46,3 @@
     {% endfor %}
   </div>
 </div>
-{# updated; #}
