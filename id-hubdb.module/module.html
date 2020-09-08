@@ -19,7 +19,7 @@
 {% macro html(value, class, parent_class, repeat) %}
   {% set value = value|regex_replace("&gt;", ">")|regex_replace("&lt;", "<") %}
   <div class={{parent_class}}>
-  {% for item in content %}
+  {% for item in content.list %}
     {{value}}
   {% endfor %}
   </div>

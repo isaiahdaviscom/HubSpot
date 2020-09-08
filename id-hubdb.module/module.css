@@ -1,6 +1,11 @@
-.container, .grid, .flex, .grid > div, .flex > div {
-	width: 100%;
+.container,
+.grid,
+.flex,
+.grid>div,
+.flex>div {
+  width: 100%;
 }
+
 .container {
   margin: auto;
   display: flex;
@@ -16,25 +21,25 @@
 }
 
 .flex {
-	display: flex;
-	flex-flow: row wrap;
-	align-content: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
 }
 
-.flex > div {
+.flex>div {
   flex-shrink: 0;
   gap: 12px;
   display: flex;
   margin: 12px auto;
 }
 
-.grid > div img {
+.grid>div img {
   max-width: 100%;
 }
 
-.flex > div img {
-	object-fit: cover;
-	flex: 1 1 auto;
+.flex>div img {
+  object-fit: cover;
+  flex: 1 1 auto;
 }
 
 .grid .text {
@@ -45,4 +50,14 @@
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
+}
+
+@media screen and (max-width:475px) {
+  .flex .content-card {
+    display: block;
+  }
+
+  .flex .content-card-image {
+    text-align: center;
+  }
 }
