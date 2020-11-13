@@ -1,0 +1,25 @@
+/* Layout */
+.col-1 { width: 100%; }
+.col-2 { width: 50%; }
+.col-3 { width: 33.3333%; }
+.col-4 { width: 25%; }
+.reverse-text { color:#ffffff; }
+/* Support */
+.cm-text {
+  vertical-align:middle!important;
+  text-align:center;
+}
+@media (max-width:640px){
+ .table-cell {
+    width: 100%!important;
+    display: block!important;
+    max-width: 100%!important;
+    margin-bottom: 1em!important;
+  }
+  .table {
+    display: block;
+  }
+  .visibility-hide {
+    display: none;
+  }
+}

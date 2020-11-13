@@ -1,0 +1,27 @@
+{
+  "menu_tree.label" : {
+    "message" : "Menu simples",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.choices.horizontal" : {
+    "message" : "Horizontal",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.choices.vertical" : {
+    "message" : "Vertical",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.label" : {
+    "message" : "Orientação do menu",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.placeholder" : {
+    "message" : "Pesquisar",
+    "description" : null,
+    "placeholders" : null
+  }
+}

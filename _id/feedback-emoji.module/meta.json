@@ -1,0 +1,12 @@
+{
+  "global" : false,
+  "smart_type" : "NOT_SMART",
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "module_id" : 8826753,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../Templates/iga-theme/core/css/iga.css",
+    "name" : "iga.css"
+  } ],
+  "is_available_for_new_content" : true
+}

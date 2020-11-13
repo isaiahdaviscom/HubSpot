@@ -1,0 +1,25 @@
+{# Prizing Form #}
+{% set offset = module.offset %}
+{% set fm = module.form_field %}
+{% set fmID = fm.form_id %}
+{# HubSpot DB #}
+{% set query = module.text_field == "" ? "&name__contains=Break" : module.text_field %}
+{% set table = hubdb_table_rows(module.hubdbtable_field, query) %}
+{# conditional #}
+{% if module.is_conditional %}
+	{# the loop #}
+	{% for row in table %}
+		{# get session times #}
+		{% set start_time = row.start_time|unixtimestamp %}
+		{% set end_time = row.end_time|unixtimestamp %}
+		{# get current time #}
+		{% set current_time = local_dt %}
+		{# debug #}
+	<!-- 	<pre>{{start_time}} / {{current_time}} / {{ end_time }}</pre> -->
+		{% if ( current_time >= start_time ) and ( current_time <= end_time ) %}
+			{% form "my_form" form_to_use='{{fmID}}', title='{{module.title}}' %}
+		{% endif %}
+	{% endfor %}
+{% else %}
+	{% form "my_form" form_to_use='{{fmID}}', title='{{module.title}}' %}
+{% endif %}

@@ -1,0 +1,16 @@
+.static-header .icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 40px;
+  background-color: #ED1C24;
+  border-radius: 100%;
+  color: #fff;
+  font-size: 30px;
+  line-height: 70px;
+  text-align: center;
+}
+.icon {
+ background:url(https://www.iga.com/hubfs/programs/corporate/branding/glyphs-icons/brand-open-quote-wht.svg) no-repeat center center;
+  color:white;
+}

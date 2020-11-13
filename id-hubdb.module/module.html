@@ -12,22 +12,22 @@
 {% set groups = grouping ? rows|groupby(grouping) : rows %} {# list => grouperObject| list#}
 {# template_partials #}
 {% macro img(src, class, parent_class) %}
-  <div class={{parent_class}}>
-    <img class="{{class}}" src="{{src}}">
-  </div>
+<div class={{parent_class}}>
+  <img class="{{class}}" src="{{src}}">
+</div>
 {% endmacro %}
 {% macro html(value, class, parent_class, repeat) %}
-  {% set value = value|regex_replace("&gt;", ">")|regex_replace("&lt;", "<") %}
-  <div class={{parent_class}}>
+{% set value = value|regex_replace("&gt;", ">")|regex_replace("&lt;", "<") %}
+<div class={{parent_class}}>
   {% for item in content.list %}
-    {{value}}
+  {{value}}
   {% endfor %}
-  </div>
+</div>
 {% endmacro %}
 {# end template_partials #}
 {% macro the_loop( content ) %}
 {% set content = content.grouperObject[0] ? {'group':content.grouperObject[0],'list':content.list} : content %}
-  {{module.template}}
+{{module.template}}
 {% endmacro %}
 {# HTML #}
 <div class="container">

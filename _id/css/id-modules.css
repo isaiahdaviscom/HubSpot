@@ -1,0 +1,96 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/****************************************/
+/* HubSpot Style Boilerplate            */
+/****************************************/
+
+/* These includes are optional, but helpful. */
+{% include "hubspot/styles/responsive/modules.css" %}
+{% include "hubspot/styles/patches/recommended.css" %}
+
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+
+.table {
+  border-spacing: 20px 10px;
+  margin: 0 -20px;
+  width: calc( 100% + 40px)!important;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: top;
+  border-collapse:collapse;
+  max-width: 0!important;
+}
+.content-card-icon {
+    padding: 0 20px;
+    position: relative;
+    top: -30px;
+    margin-bottom: -30px;
+}
+.icon-disc.theme i {
+    background-color: #ed1c24;
+    color: #fff;
+}
+
+.icon-circle i, .icon-disc i {
+    overflow: hidden;
+    border-radius: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+.icon-dot i, .icon-circle i, .icon-disc i {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-weight: normal;
+    font-style: normal;
+    transition: .4s ease;
+}
+/* Layout */
+.col-1 {
+  width: 100%;
+}
+.col-2 {
+  width: 50%;
+}
+.col-3 {
+  width: 33.3333%;
+}
+.col-4 {
+  width: 25%;
+}
+
+/* Support */
+.visibility-hide {
+  visibility: hidden;
+}
+.cm-text {
+  vertical-align:middle!important;
+  text-align:center;
+}
+.reverse-text {
+  color:#ffffff;
+}
+@media (max-width:640px){
+ .table-cell {
+    width: 100%!important;
+    display: block!important;
+    max-width: 100%!important;
+    margin-bottom: 1em!important;
+  }
+  .table {
+    display: block;
+  }
+  .visibility-hide {
+    display: none;
+  }
+}

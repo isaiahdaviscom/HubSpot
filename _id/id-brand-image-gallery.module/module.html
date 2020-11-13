@@ -1,0 +1,28 @@
+<div id='results'></div>
+
+<form id="product-name-upc" method="GET"> 
+  <fieldset>
+    <label for="text-search">{{ module.label_field }}</label>
+    <div>
+      <input type="text" class="hs-input" id="text-search" placeholder="Product Name or UPC" name="q" required="">
+    </div>
+    <div class="fluid">
+      <div class="search-choice">
+        <label>Search by:&nbsp;</label>
+      </div>
+      <div class="search-choice">
+        <input type="radio" id="all" name="search_type" value="both" checked="">
+        <label for="all">All</label>
+      </div>
+      <div class="search-choice">
+        <input type="radio" id="product-name" name="search_type" value="prod">
+        <label for="product-name">Product Name</label>
+      </div>
+      <div class="search-choice">
+        <input type="radio" id="product-upc" name="search_type" value="upc">
+        <label for="product-upc">UPC</label>
+      </div>
+    </div>
+    <button id="text-search-btn" class="hs-button primary large" type="submit">Search</button> 
+  </fieldset>
+</form>

@@ -1,0 +1,142 @@
+{
+  "email.custom_link_format.default" : {
+    "message" : "mailto:?subject=Check out {{ social_link_url }} &body=Check out {{ social_link_url }}",
+    "description" : null,
+    "placeholders" : null
+  },
+  "email.custom_link_format.label" : {
+    "message" : "Enlace",
+    "description" : null,
+    "placeholders" : null
+  },
+  "email.enabled.label" : {
+    "message" : "¿Habilitado?",
+    "description" : null,
+    "placeholders" : null
+  },
+  "email.label" : {
+    "message" : "Correo electrónico",
+    "description" : null,
+    "placeholders" : null
+  },
+  "facebook.custom_link_format.default" : {
+    "message" : "http://www.facebook.com/share.php?u={{ social_link_url }}",
+    "description" : null,
+    "placeholders" : null
+  },
+  "facebook.custom_link_format.label" : {
+    "message" : "Enlace",
+    "description" : null,
+    "placeholders" : null
+  },
+  "facebook.enabled.label" : {
+    "message" : "¿Habilitado?",
+    "description" : null,
+    "placeholders" : null
+  },
+  "facebook.label" : {
+    "message" : "Facebook",
+    "description" : null,
+    "placeholders" : null
+  },
+  "google_plus.custom_link_format.default" : {
+    "message" : "https://plus.google.com/share?url={{ social_link_url }}",
+    "description" : null,
+    "placeholders" : null
+  },
+  "google_plus.custom_link_format.label" : {
+    "message" : "Enlace",
+    "description" : null,
+    "placeholders" : null
+  },
+  "google_plus.enabled.label" : {
+    "message" : "¿Habilitado?",
+    "description" : null,
+    "placeholders" : null
+  },
+  "google_plus.label" : {
+    "message" : "Google+",
+    "description" : null,
+    "placeholders" : null
+  },
+  "link.help_text" : {
+    "message" : "Este es el enlace de destino que se acortará para compartir más fácilmente en las redes sociales.",
+    "description" : null,
+    "placeholders" : null
+  },
+  "link.label" : {
+    "message" : "URL del enlace",
+    "description" : null,
+    "placeholders" : null
+  },
+  "link.placeholder" : {
+    "message" : "URL de página personalizada opcional",
+    "description" : null,
+    "placeholders" : null
+  },
+  "linkedin.custom_link_format.default" : {
+    "message" : "http://www.linkedin.com/shareArticle?mini=true&url={{ social_link_url }}",
+    "description" : null,
+    "placeholders" : null
+  },
+  "linkedin.custom_link_format.label" : {
+    "message" : "Enlace",
+    "description" : null,
+    "placeholders" : null
+  },
+  "linkedin.enabled.label" : {
+    "message" : "¿Habilitado?",
+    "description" : null,
+    "placeholders" : null
+  },
+  "linkedin.label" : {
+    "message" : "LinkedIn",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pinterest.custom_link_format.default" : {
+    "message" : "http://pinterest.com/pin/create/button/?url={{ social_link_url }}&media={{ pinterest_media }}",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pinterest.custom_link_format.label" : {
+    "message" : "Enlace",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pinterest.enabled.label" : {
+    "message" : "¿Habilitado?",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pinterest.label" : {
+    "message" : "Pinterest",
+    "description" : null,
+    "placeholders" : null
+  },
+  "pinterest.pinterest_media.label" : {
+    "message" : "Pin imagen",
+    "description" : null,
+    "placeholders" : null
+  },
+  "twitter.custom_link_format.default" : {
+    "message" : "https://twitter.com/intent/tweet?original_referer={{ social_link_url }}&url={{ social_link_url }}&source=tweetbutton&text={{ social_page_title|urlencode }}",
+    "description" : null,
+    "placeholders" : null
+  },
+  "twitter.custom_link_format.label" : {
+    "message" : "Enlace",
+    "description" : null,
+    "placeholders" : null
+  },
+  "twitter.enabled.label" : {
+    "message" : "¿Habilitado?",
+    "description" : null,
+    "placeholders" : null
+  },
+  "twitter.label" : {
+    "message" : "Twitter",
+    "description" : null,
+    "placeholders" : null
+  }
+}

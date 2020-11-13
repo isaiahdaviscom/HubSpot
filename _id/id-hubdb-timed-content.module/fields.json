@@ -1,0 +1,77 @@
+[ {
+  "id" : "b49ddf2e-b561-c44f-40f7-1ab81d159548",
+  "name" : "hubdbtable_field",
+  "label" : "HubDB table",
+  "required" : false,
+  "locked" : false,
+  "type" : "hubdbtable",
+  "default" : 2036865
+}, {
+  "id" : "bbbe1500-cfb8-b1ff-f93a-5960333b167b",
+  "name" : "is_conditional",
+  "label" : "is_conditional",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "20fb44e8-0443-4592-b5ed-21de39d931db",
+  "name" : "text_field",
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "visibility" : {
+    "controlling_field" : "bbbe1500-cfb8-b1ff-f93a-5960333b167b",
+    "controlling_value_regex" : "true",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "&name__contains=Break"
+}, {
+  "id" : "102c0bf4-bc24-e7db-4900-bba6dbdde569",
+  "name" : "offset",
+  "label" : "Offset",
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : "bbbe1500-cfb8-b1ff-f93a-5960333b167b",
+    "controlling_value_regex" : "true",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "display" : "text",
+  "step" : 1,
+  "type" : "number"
+}, {
+  "id" : "2893e565-a79e-03c7-a535-1bfc327865fb",
+  "name" : "form_field",
+  "label" : "Form",
+  "required" : false,
+  "locked" : false,
+  "type" : "form",
+  "default" : {
+    "form_id" : "023b0f86-f629-45d3-a0fd-65278fd4f55e",
+    "response_type" : "inline",
+    "message" : "Thanks for submitting the form.",
+    "gotowebinar_webinar_key" : null,
+    "form_type" : "HUBSPOT"
+  }
+}, {
+  "id" : "038534ab-bdd8-c81b-13c1-b7a7107a304b",
+  "name" : "title",
+  "label" : "title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Enter To Win Instant Prize"
+} ]

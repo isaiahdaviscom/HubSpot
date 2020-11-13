@@ -1,0 +1,69 @@
+[ {
+  "id" : "cc2648c8-e9e8-6f1c-9918-52f7d845ea02",
+  "name" : "settings_field",
+  "label" : "Settings",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "hubdb_settings", "HubDb" ], [ "ui_settings", "Static" ] ],
+  "type" : "choice",
+  "default" : "hubdb_settings"
+}, {
+  "id" : "52d285f1-b3ed-557b-1e53-fa2700970f67",
+  "name" : "output",
+  "label" : "Output",
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : "cc2648c8-e9e8-6f1c-9918-52f7d845ea02",
+    "controlling_value_regex" : "hubdb_settings",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "badbb261-848a-1ac4-2fb7-2c9971e1ee1e",
+  "name" : "hubdbtable_field",
+  "label" : "HubDB table field",
+  "required" : false,
+  "locked" : false,
+  "type" : "hubdbtable"
+}, {
+  "id" : "2f9b2aa5-7e85-216c-f91d-700842c36f98",
+  "name" : "hubdb_query",
+  "label" : "Query",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "visibility" : {
+    "controlling_field" : "cc2648c8-e9e8-6f1c-9918-52f7d845ea02",
+    "controlling_value_regex" : "hubdb_settings",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text"
+}, {
+  "id" : "fc0bf1ff-6dfc-6418-3cd6-f9d14e9371d6",
+  "name" : "columns",
+  "label" : "Columns",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "1", "1" ], [ "2", "2" ], [ "3", "3" ], [ "4", "4" ] ],
+  "type" : "choice"
+}, {
+  "id" : "f9987b85-a252-7569-ed42-0c103ae503e7",
+  "name" : "hide",
+  "label" : "Hide",
+  "required" : false,
+  "locked" : false,
+  "display" : "text",
+  "min" : 0,
+  "step" : 1,
+  "type" : "number"
+} ]

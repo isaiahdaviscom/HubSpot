@@ -1,0 +1,21 @@
+{
+  "content_tags" : [ {
+    "name" : "BANNER",
+    "source" : "USER"
+  } ],
+  "global" : false,
+  "smart_type" : "NOT_SMART",
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "module_id" : 9379999,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../css/id-hero-slider.css",
+    "name" : "id-hero-slider.css"
+  } ],
+  "js_assets" : [ {
+    "autoload" : true,
+    "path" : "../../js/id-hero-slider.js",
+    "name" : "id-hero-slider.js"
+  } ],
+  "is_available_for_new_content" : true
+}

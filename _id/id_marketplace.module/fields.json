@@ -1,0 +1,75 @@
+[ {
+  "id" : "4030884b-5548-646e-152c-b27b79fd54b8",
+  "name" : "groups",
+  "label" : "Sections",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "2b1b4e6f-a5b2-1625-3f4f-04051090d503",
+    "name" : "header",
+    "label" : "Header",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  }, {
+    "id" : "43fa28ec-9f73-1488-19f7-7f5c2a3d27e2",
+    "name" : "data",
+    "label" : "Contents",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : null,
+      "max" : null,
+      "sorting_label_field" : null,
+      "default" : null
+    },
+    "children" : [ {
+      "id" : "4c16d124-bb78-1571-f3ca-ebc2127d8a15",
+      "name" : "content",
+      "label" : "Content",
+      "required" : false,
+      "locked" : false,
+      "type" : "richtext",
+      "default" : "<h3>Interested in Advertising with IGA?</h3>\n<p>{{cta('e1baf9d5-f8a6-40c7-b527-3694a1f93da0')}}</p>"
+    }, {
+      "id" : "d4ca1a49-b4bb-5de2-dfa8-7fb7e9628699",
+      "name" : "page",
+      "label" : "Page",
+      "required" : false,
+      "locked" : false,
+      "type" : "page"
+    }, {
+      "id" : "76ce8ce9-92c5-5361-9f86-4d5d1d219506",
+      "name" : "choice_field",
+      "label" : "Choice",
+      "required" : false,
+      "locked" : false,
+      "display" : "select",
+      "choices" : [ [ "all", "All" ], [ "value 2", "Label 2" ] ],
+      "type" : "choice"
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "content" : "<h3>Interested in Advertising with IGA?</h3>\n<p>{{cta('e1baf9d5-f8a6-40c7-b527-3694a1f93da0')}}</p>"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "data" : {
+      "content" : "<h3>Interested in Advertising with IGA?</h3>\n<p>{{cta('e1baf9d5-f8a6-40c7-b527-3694a1f93da0')}}</p>"
+    }
+  }
+} ]

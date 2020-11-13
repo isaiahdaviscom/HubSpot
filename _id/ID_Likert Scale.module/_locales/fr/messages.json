@@ -1,0 +1,57 @@
+{
+  "follow_up_type_automation.label" : {
+    "message" : "Ajouter au workflow",
+    "description" : null,
+    "placeholders" : null
+  },
+  "follow_up_type_simple.label" : {
+    "message" : "Envoyer un e-mail de suivi",
+    "description" : null,
+    "placeholders" : null
+  },
+  "form.default.message" : {
+    "message" : "Merci d'avoir envoyé le formulaire.",
+    "description" : null,
+    "placeholders" : null
+  },
+  "form.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "form.label" : {
+    "message" : "Formulaire",
+    "description" : null,
+    "placeholders" : null
+  },
+  "form_follow_ups_workflow_id.label" : {
+    "message" : "Workflow",
+    "description" : null,
+    "placeholders" : null
+  },
+  "notifications_are_overridden.label" : {
+    "message" : "Envoyer les notifications de formulaire à des adresses e-mail spécifiques au lieu de celles indiquées par défaut dans les formulaires",
+    "description" : null,
+    "placeholders" : null
+  },
+  "notifications_override_email_addresses.label" : {
+    "message" : "Adresses e-mail",
+    "description" : null,
+    "placeholders" : null
+  },
+  "sfdc_campaign.label" : {
+    "message" : "Campagne Salesforce",
+    "description" : null,
+    "placeholders" : null
+  },
+  "simple_email_for_live_id.label" : {
+    "message" : "E-mail",
+    "description" : null,
+    "placeholders" : null
+  },
+  "title.label" : {
+    "message" : "Titre du formulaire",
+    "description" : null,
+    "placeholders" : null
+  }
+}

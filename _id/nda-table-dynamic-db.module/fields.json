@@ -1,0 +1,129 @@
+[ {
+  "id" : "cc2648c8-e9e8-6f1c-9918-52f7d845ea02",
+  "name" : "settings_field",
+  "label" : "Settings",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "hubdb_settings", "HubDb" ], [ "ui_settings", "Static" ] ],
+  "type" : "choice",
+  "default" : "hubdb_settings"
+}, {
+  "id" : "52d285f1-b3ed-557b-1e53-fa2700970f67",
+  "name" : "output",
+  "label" : "Output",
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : "cc2648c8-e9e8-6f1c-9918-52f7d845ea02",
+    "controlling_value_regex" : "hubdb_settings",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "badbb261-848a-1ac4-2fb7-2c9971e1ee1e",
+  "name" : "hubdbtable_field",
+  "label" : "HubDB table field",
+  "required" : false,
+  "locked" : false,
+  "type" : "hubdbtable"
+}, {
+  "id" : "2f9b2aa5-7e85-216c-f91d-700842c36f98",
+  "name" : "hubdb_query",
+  "label" : "Query",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "visibility" : {
+    "controlling_field" : "cc2648c8-e9e8-6f1c-9918-52f7d845ea02",
+    "controlling_value_regex" : "hubdb_settings",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text"
+}, {
+  "id" : "6938c967-2784-7eee-afda-bdca49ec2ece",
+  "name" : "field_group",
+  "label" : "Field group",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 3,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "visibility" : {
+    "controlling_field" : "cc2648c8-e9e8-6f1c-9918-52f7d845ea02",
+    "controlling_value_regex" : "hubdb_settings",
+    "operator" : "EQUAL",
+    "access" : null,
+    "hidden_subfields" : null
+  },
+  "children" : [ {
+    "id" : "175653b1-14d2-4e1f-d110-5cf74001f45f",
+    "name" : "hubdb_column_name",
+    "label" : "Hubdb Column",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "name"
+  }, {
+    "id" : "9261bf39-cd28-5791-956d-9fbd52852567",
+    "name" : "thead",
+    "label" : "Header Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Name"
+  }, {
+    "id" : "8c1a8dfc-2ef7-33ee-661b-5e2f99537e8d",
+    "name" : "html_type",
+    "label" : "HTML Type",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "text", "Text" ], [ "url", "URL" ], [ "image", "Image" ], [ "date", "Date" ], [ "tags", "Tags" ], [ "cta", "CTA" ] ],
+    "type" : "choice",
+    "default" : "text"
+  }, {
+    "id" : "56c77f7a-4400-7f35-c514-489be5f5b27f",
+    "name" : "width",
+    "label" : "Width",
+    "required" : false,
+    "locked" : false,
+    "display" : "slider",
+    "max" : 500,
+    "step" : 1,
+    "type" : "number"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "hubdb_column_name" : "name",
+    "thead" : "Name",
+    "html_type" : "text"
+  }, {
+    "hubdb_column_name" : "name",
+    "thead" : "Name",
+    "html_type" : "text"
+  }, {
+    "hubdb_column_name" : "name",
+    "thead" : "Name",
+    "html_type" : "text"
+  } ]
+} ]

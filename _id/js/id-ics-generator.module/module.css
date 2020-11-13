@@ -1,0 +1,21 @@
+a.cal {
+	min-width:unset;
+}
+a.cal:before {
+	content: '\f133';
+	font-family:'FontAwesome';
+	color:#ffffff;
+	display:block;
+	position:absolute;
+	height:36px;
+	width:36px;
+	top:.25rem;
+	left:.25rem;
+	padding:10px;
+	background: #eb1c24;
+	border-radius: 25px;
+}
+a.cal:hover:before {
+	background: #ffffff;
+	color: #eb1c24;
+}

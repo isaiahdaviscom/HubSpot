@@ -1,0 +1,40 @@
+[ {
+  "id" : "ac02e709-a8db-29a7-9c4f-259981b1bf60",
+  "name" : "display",
+  "label" : "Display",
+  "required" : false,
+  "locked" : true,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "452ddd69-9e6c-44cb-9a3a-c179c8e2e476",
+  "name" : "text_field",
+  "label" : "Text",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text"
+}, {
+  "id" : "13168dbf-eb74-acda-ae50-08f4193af5cd",
+  "name" : "anchor",
+  "label" : "Anchor",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text"
+}, {
+  "id" : "fa6cf32b-edb9-b4ae-6f34-847dc972abca",
+  "name" : "button",
+  "label" : "Button",
+  "required" : false,
+  "locked" : true,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text"
+} ]

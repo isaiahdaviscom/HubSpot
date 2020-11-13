@@ -1,0 +1,27 @@
+{
+  "menu_tree.label" : {
+    "message" : "Simpel menu",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.choices.horizontal" : {
+    "message" : "Vandret",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.choices.vertical" : {
+    "message" : "Lodret",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.label" : {
+    "message" : "Menuens retning",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.placeholder" : {
+    "message" : "Søg",
+    "description" : null,
+    "placeholders" : null
+  }
+}

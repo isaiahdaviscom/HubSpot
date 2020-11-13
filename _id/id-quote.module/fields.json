@@ -1,0 +1,82 @@
+[ {
+  "id" : "4f3ff06f-0a38-1e4f-0f89-fa5239517142",
+  "name" : "field_group",
+  "label" : "Field group",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "bd36a0aa-4df2-621c-5d46-d6a67022ccce",
+    "name" : "quote",
+    "label" : "Quote",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus et nisi at vestibulum. Quisque et euismod ligula, semper facilisis elit. Nunc eleifend euismod elementum. Morbi rutrum erat vel libero viverra elementum. Donec accumsan tincidunt tellus et gravida.”"
+  }, {
+    "id" : "c63ca0d3-f4fd-2b90-168d-4a72a6a4e298",
+    "name" : "author",
+    "label" : "Author",
+    "required" : false,
+    "locked" : false,
+    "responsive" : false,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-quote-author-sample.jpg?noresize",
+      "alt" : "Mark O’Marketing - VP Sales & Marketing, Xappp",
+      "width" : "180",
+      "height" : "180"
+    }
+  }, {
+    "id" : "da1ff1f3-3115-30dd-f3c0-481bae0cf942",
+    "name" : "details",
+    "label" : "Details",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p><strong>Mark O’Marketing</strong><br> VP Sales &amp; Marketing, Xappp</p>"
+  }, {
+    "id" : "85ef104b-159f-d84b-1fb0-e795fa337626",
+    "name" : "alignment",
+    "label" : "Alignment",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "placeholder" : "Search",
+    "choices" : [ [ "tc", "Center (default)" ], [ "tl", "Left" ], [ "tr", "Right" ] ],
+    "type" : "choice",
+    "default" : "tc"
+  }, {
+    "id" : "bd971eb1-0ef0-7489-b8b2-aad9775a2611",
+    "name" : "custom_class",
+    "label" : "Custom class",
+    "help_text" : "A custom class that you can target in CSS to further style this module.",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "quote" : "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus et nisi at vestibulum. Quisque et euismod ligula, semper facilisis elit. Nunc eleifend euismod elementum. Morbi rutrum erat vel libero viverra elementum. Donec accumsan tincidunt tellus et gravida.”",
+    "author" : {
+      "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-quote-author-sample.jpg?noresize",
+      "alt" : "Mark O’Marketing - VP Sales & Marketing, Xappp",
+      "width" : "180",
+      "height" : "180"
+    },
+    "details" : "<p><strong>Mark O’Marketing</strong><br> VP Sales &amp; Marketing, Xappp</p>",
+    "alignment" : "tc"
+  }
+} ]

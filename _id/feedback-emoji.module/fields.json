@@ -1,0 +1,12 @@
+[ {
+  "id" : "6030408e-63fc-a1f8-9879-dea2173b280b",
+  "name" : "form_field",
+  "label" : "Form field",
+  "required" : false,
+  "locked" : false,
+  "type" : "form",
+  "default" : {
+    "response_type" : "inline",
+    "message" : "Thanks for submitting the form."
+  }
+} ]

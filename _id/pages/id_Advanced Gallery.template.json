@@ -1,0 +1,765 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 4,
+  "attachedStylesheets" : [ {
+    "type" : "cos_extension_resource",
+    "path" : "/act-theme/Act2.css"
+  } ],
+  "attachedJs" : [ ],
+  "customHead" : "",
+  "customFooter" : "",
+  "bodyClass" : "",
+  "bodyCss" : "",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1589552221731203",
+        "label" : "CONSTANTS",
+        "type" : "custom_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "wrapping_html" : "",
+          "per_widget_wrapper_html" : "",
+          "overrideable" : true,
+          "widget_name" : "CONSTANTS",
+          "schema_version" : 2,
+          "path" : "/_id/CONSTANTS"
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1500551792042542",
+        "label" : "Act2/Act2 Header",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "ending_html" : "",
+          "generated_template_path" : "generated_global_groups/5851898556.html",
+          "overrideable" : false,
+          "path" : "generated_global_groups/5851898556.html",
+          "starting_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1500551829781550",
+        "label" : "Act2/Act2 Sticky Header",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "ending_html" : "",
+          "generated_template_path" : "generated_global_groups/5846761334.html",
+          "overrideable" : false,
+          "path" : "generated_global_groups/5846761334.html",
+          "starting_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1500551825761548",
+        "label" : "Act2/Act2 Search",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "ending_html" : "",
+          "generated_template_path" : "generated_global_groups/5846761383.html",
+          "overrideable" : false,
+          "path" : "generated_global_groups/5846761383.html",
+          "starting_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1500551823895546",
+        "label" : "Act2/Act2 Menu Slide",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "ending_html" : "",
+          "generated_template_path" : "generated_global_groups/5846761351.html",
+          "overrideable" : false,
+          "path" : "generated_global_groups/5846761351.html",
+          "starting_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_150158783225349",
+        "label" : "Content Section",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "content-section",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_150158784132255",
+            "label" : "Centered (w800)",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "centered w800",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_150158783843052",
+                "label" : "Section Intro",
+                "type" : "rich_text",
+                "params" : {
+                  "css_class" : "section-intro sep tc",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "html" : "<h1>Advanced Gallery</h1>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius a ligula nec consequat. Nulla scelerisque sem massa, ac malesuada enim dapibus id.</p>",
+                  "overrideable" : true,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "section-intro sep tc",
+                "cssStyle" : "",
+                "styles" : null
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "centered w800",
+            "cssStyle" : "",
+            "styles" : null
+          }
+        }, {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_150158783452551",
+            "label" : "Centered",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "centered",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_1501588791245246",
+                "label" : "Advanced Gallery",
+                "type" : "cell",
+                "params" : {
+                  "css_class" : "advanced-gallery",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 3,
+                    "name" : "module_1501588796724247",
+                    "label" : "Image",
+                    "type" : "linked_image",
+                    "params" : {
+                      "alt" : "Sweet & Tasty<small>with Fresh Berries</small>",
+                      "css_class" : "gutter-bottom sm-mb30",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "height" : 800,
+                      "img" : {
+                        "alt" : "Sweet & Tasty<small>with Fresh Berries</small>",
+                        "height" : 800,
+                        "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-one.jpg",
+                        "width" : 1200
+                      },
+                      "img_alt" : "Sweet & Tasty<small>with Fresh Berries</small>",
+                      "img_load_error" : false,
+                      "link" : "",
+                      "open_in_new_tab" : true,
+                      "original_height" : 800,
+                      "original_width" : 1200,
+                      "overrideable" : true,
+                      "per_widget_wrapper_html" : "",
+                      "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-one.jpg",
+                      "width" : 1200,
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "gutter-bottom sm-mb30",
+                    "cssStyle" : "",
+                    "styles" : null
+                  },
+                  "3" : {
+                    "x" : 3,
+                    "w" : 3,
+                    "name" : "module_1501588798203250",
+                    "label" : "Image",
+                    "type" : "linked_image",
+                    "params" : {
+                      "alt" : "Misty Mountains<small>Cold & Windy</small>",
+                      "css_class" : "gutter-bottom sm-mb30",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "height" : 800,
+                      "img" : {
+                        "alt" : "Misty Mountains<small>Cold & Windy</small>",
+                        "height" : 800,
+                        "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-two.jpg",
+                        "width" : 1200
+                      },
+                      "img_alt" : "Misty Mountains<small>Cold</small>",
+                      "img_load_error" : false,
+                      "link" : "",
+                      "open_in_new_tab" : false,
+                      "original_height" : 800,
+                      "original_width" : 1200,
+                      "overrideable" : true,
+                      "per_widget_wrapper_html" : "",
+                      "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-two.jpg",
+                      "width" : 1200,
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "gutter-bottom sm-mb30",
+                    "cssStyle" : "",
+                    "styles" : null
+                  },
+                  "6" : {
+                    "x" : 6,
+                    "w" : 3,
+                    "name" : "module_1501588797492249",
+                    "label" : "Image",
+                    "type" : "linked_image",
+                    "params" : {
+                      "alt" : "Breathing Fire<small>Melting Rock</small>",
+                      "css_class" : "gutter-bottom sm-mb30",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "height" : 800,
+                      "img" : {
+                        "alt" : "Breathing Fire<small>Melting Rock</small>",
+                        "height" : 800,
+                        "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-three.jpg",
+                        "width" : 1200
+                      },
+                      "img_alt" : "Breathing Fire",
+                      "img_load_error" : false,
+                      "link" : "",
+                      "open_in_new_tab" : false,
+                      "original_height" : 800,
+                      "original_width" : 1200,
+                      "overrideable" : true,
+                      "per_widget_wrapper_html" : "",
+                      "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-three.jpg",
+                      "width" : 1200,
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "gutter-bottom sm-mb30",
+                    "cssStyle" : "",
+                    "styles" : null
+                  },
+                  "9" : {
+                    "x" : 9,
+                    "w" : 3,
+                    "name" : "module_1501588799076251",
+                    "label" : "Image",
+                    "type" : "linked_image",
+                    "params" : {
+                      "alt" : " A Walk in the Park<small>Easy Like That</small>",
+                      "css_class" : "gutter-bottom sm-mb30",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "height" : 800,
+                      "img" : {
+                        "alt" : " A Walk in the Park<small>Easy Like That</small>",
+                        "height" : 800,
+                        "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-four.jpg",
+                        "width" : 1200
+                      },
+                      "img_alt" : " A Walk in the Park",
+                      "img_load_error" : false,
+                      "link" : "",
+                      "open_in_new_tab" : false,
+                      "original_height" : 800,
+                      "original_width" : 1200,
+                      "overrideable" : true,
+                      "per_widget_wrapper_html" : "",
+                      "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-four.jpg",
+                      "width" : 1200,
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "gutter-bottom sm-mb30",
+                    "cssStyle" : "",
+                    "styles" : null
+                  }
+                }, {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 3,
+                    "name" : "module_1501588866716316",
+                    "label" : "Image",
+                    "type" : "linked_image",
+                    "params" : {
+                      "alt" : "Gotham",
+                      "css_class" : "gutter-bottom sm-mb30",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "height" : 800,
+                      "img" : {
+                        "alt" : "Gotham",
+                        "height" : 800,
+                        "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-five.jpg",
+                        "width" : 1200
+                      },
+                      "img_alt" : "act-photo-gallery-five.jpg",
+                      "img_load_error" : false,
+                      "link" : "",
+                      "open_in_new_tab" : false,
+                      "original_height" : 800,
+                      "original_width" : 1200,
+                      "overrideable" : true,
+                      "per_widget_wrapper_html" : "",
+                      "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-five.jpg",
+                      "width" : 1200,
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "gutter-bottom sm-mb30",
+                    "cssStyle" : "",
+                    "styles" : null
+                  },
+                  "3" : {
+                    "x" : 3,
+                    "w" : 3,
+                    "name" : "module_1501588869982319",
+                    "label" : "Image",
+                    "type" : "linked_image",
+                    "params" : {
+                      "alt" : "Marley",
+                      "css_class" : "gutter-bottom sm-mb30",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "height" : 800,
+                      "img" : {
+                        "alt" : "Marley",
+                        "height" : 800,
+                        "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-six.jpg",
+                        "width" : 1200
+                      },
+                      "img_alt" : "act-photo-gallery-six.jpg",
+                      "img_load_error" : false,
+                      "link" : "",
+                      "open_in_new_tab" : false,
+                      "original_height" : 800,
+                      "original_width" : 1200,
+                      "overrideable" : true,
+                      "per_widget_wrapper_html" : "",
+                      "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-six.jpg",
+                      "width" : 1200,
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "gutter-bottom sm-mb30",
+                    "cssStyle" : "",
+                    "styles" : null
+                  },
+                  "6" : {
+                    "x" : 6,
+                    "w" : 3,
+                    "name" : "module_1501588869261318",
+                    "label" : "Image",
+                    "type" : "linked_image",
+                    "params" : {
+                      "alt" : "Stand Strong",
+                      "css_class" : "gutter-bottom sm-mb30",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "height" : 800,
+                      "img" : {
+                        "alt" : "Stand Strong",
+                        "height" : 800,
+                        "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-seven.jpg",
+                        "width" : 1200
+                      },
+                      "img_alt" : "act-photo-gallery-seven.jpg",
+                      "img_load_error" : false,
+                      "link" : "",
+                      "open_in_new_tab" : false,
+                      "original_height" : 800,
+                      "original_width" : 1200,
+                      "overrideable" : true,
+                      "per_widget_wrapper_html" : "",
+                      "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-seven.jpg",
+                      "width" : 1200,
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "gutter-bottom sm-mb30",
+                    "cssStyle" : "",
+                    "styles" : null
+                  },
+                  "9" : {
+                    "x" : 9,
+                    "w" : 3,
+                    "name" : "module_1501588870983320",
+                    "label" : "Image (Video)",
+                    "type" : "linked_image",
+                    "params" : {
+                      "alt" : "",
+                      "css_class" : "gutter-bottom sm-mb30 video",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "height" : 800,
+                      "img" : {
+                        "alt" : "",
+                        "height" : 800,
+                        "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-hs-play.jpg",
+                        "width" : 1200
+                      },
+                      "img_alt" : "act-photo-gallery-hs-play.jpg",
+                      "img_load_error" : false,
+                      "link" : "https://www.youtube.com/watch?v=oi0JZQECqg0",
+                      "open_in_new_tab" : true,
+                      "original_height" : 800,
+                      "original_width" : 1200,
+                      "overrideable" : true,
+                      "per_widget_wrapper_html" : "",
+                      "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/images/act-photo-gallery-hs-play.jpg",
+                      "width" : 1200,
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "gutter-bottom sm-mb30 video",
+                    "cssStyle" : "",
+                    "styles" : null
+                  }
+                } ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "advanced-gallery",
+                "cssStyle" : "",
+                "styles" : null
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "centered",
+            "cssStyle" : "",
+            "styles" : null
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "content-section",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_150817264954700",
+        "label" : "Content Section",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "content-section ptb40 bg-theme white-content",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "ending_html" : "",
+          "overrideable" : false,
+          "starting_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_150817264954701",
+            "label" : "Centered",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "centered",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "",
+              "ending_html" : "",
+              "overrideable" : false,
+              "starting_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 12,
+                "name" : "module_150817264954702",
+                "label" : "Horizontal Form",
+                "type" : "form",
+                "params" : {
+                  "css_class" : "horizontal-form hidden-labels form-button-dark",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "ending_html" : "",
+                  "form" : {
+                    "form_id" : "18ac4f0a-fb23-457e-9eca-a9196645259d",
+                    "gotowebinar_webinar_key" : "",
+                    "message" : "Thanks for submitting the form.",
+                    "redirect_url" : "",
+                    "response_type" : "inline"
+                  },
+                  "form_to_use" : "18ac4f0a-fb23-457e-9eca-a9196645259d",
+                  "gotowebinar_webinar_key" : "",
+                  "notifications_are_overridden" : false,
+                  "notifications_override_email_addresses" : [ ],
+                  "overrideable" : true,
+                  "response_message" : "Thanks for submitting the form.",
+                  "response_redirect_url" : "",
+                  "response_response_type" : "inline",
+                  "sfdc_campaign" : "",
+                  "starting_html" : "",
+                  "title" : ""
+                },
+                "rows" : [ ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "horizontal-form hidden-labels form-button-dark",
+                "cssStyle" : "",
+                "styles" : null
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "centered",
+            "cssStyle" : "",
+            "styles" : null
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "content-section ptb40 bg-theme white-content",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : { },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1515952100025845",
+        "label" : "Act2/Act2 Footer",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "generated_template_path" : "generated_global_groups/5846761367.html",
+          "overrideable" : false,
+          "path" : "generated_global_groups/5846761367.html",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "Act2_JavaScript__DO_NOT_DELETE_MUST_BE_LAST",
+        "label" : "Act2 JavaScript - DO NOT DELETE, MUST BE LAST",
+        "type" : "global_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "ending_html" : "",
+          "overrideable" : false,
+          "starting_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null
+  }
+}

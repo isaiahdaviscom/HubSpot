@@ -1,0 +1,104 @@
+{{ request_contact.is_logged_in }}<br>
+{{ request.path_and_query }}<br>
+{{ request.cookies }}
+<div> 
+   <div class="row"> 
+      <div class="col-3 left">
+        <form class="controls" id="Filters" style="text-align:left;">
+          <fieldset class="filter-group search">
+            <h4>Search</h4>
+            <input type="text" placeholder="Search ..." />
+          </fieldset>
+          <button id="ChangeLayout">Grid</button>
+          <fieldset class="filter-group checkboxes">
+            <h4>Departments</h4>
+            <ul data-store-category="departments">
+              <li>
+                <div class="checkbox">
+                  <input type="checkbox" value=".square" />
+                  <label>Dairy</label>
+                </div>
+              </li>
+              <li>
+                <div class="checkbox">
+                  <input type="checkbox" value=".circle" />
+                  <label>Meat</label>
+                </div>
+              </li>
+              <li>
+                <div class="checkbox">
+                  <input type="checkbox" value=".triangle" />
+                  <label>Deli</label>
+                </div>
+              </li>
+              <li>
+                <div class="checkbox">
+                  <input type="checkbox" value=".triangle" />
+                  <label>Bakery</label>
+                </div>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="filter-group checkboxes">
+            <h4>Colours</h4>
+            <div class="checkbox">
+              <input type="checkbox" value=".white" />
+              <label>White</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" value=".green" />
+              <label>Green</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" value=".blue" />
+              <label>Blue</label>
+            </div>
+          </fieldset>
+          <fieldset class="filter-group checkboxes">
+            <h4>Sizes</h4>
+            <div class="checkbox">
+              <input type="checkbox" value=".sm" />
+              <label>Small</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" value=".lrg" />
+              <label>Large</label>
+            </div>
+          </fieldset>
+          <button id="Reset">Clear Filters</button>
+        </form>
+      </div>
+      <div class="col-2 left">
+        <div id="Container" class="container">
+          <div class="fail-message"><span>No items were found matching the selected filters</span></div>
+          {% set table = hubdb_table_rows(module.hubdbtable_field) %}
+          {% for row in table %}
+            <div class="mix square white lrg {{ (row.sub_category.name||regex_replace("/\s/g", "-")) }} {{row.primary_category.name|join('-')}}">
+              <div class="content-card with-image">
+                <div class="content-card-image">
+                  <img src="{{ row.product_feat_image.url }}">
+                </div>
+                <div class="content-card-text">
+
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+          <div class="mix circle green lrg"></div>
+          <div class="mix triangle blue lrg"></div>
+          <div class="mix square white lrg"></div>
+          <div class="mix circle blue sm"></div>
+          <div class="mix triangle green lrg"></div>
+          <div class="mix square blue lrg"></div>
+          <div class="mix circle white lrg"></div>
+          <div class="gap"></div>
+          <div class="gap"></div>
+          <div class="gap"></div>
+          <div class="gap"></div>
+        </div>
+     </div>
+      <div class="clear"></div>
+   </div> 
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script>

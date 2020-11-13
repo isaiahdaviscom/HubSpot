@@ -1,0 +1,9 @@
+{% set align = ['left','center','right'] %}
+{% set offset_index = 1 %}
+<p style="text-align:{{ align[module.align_index - offset_index] }};
+          color: {{ module.text_color.color }};
+          padding-top: {{ module.padding_tb }}px;
+          padding-bottom: {{ module.padding_tb }}px;
+          margin:0px;">
+  {{ module.date_field|datetimeformat('%B %e, %Y') }}
+</p>

@@ -1,0 +1,26 @@
+{% set hubdb = "" %}
+{% for rows in module.field_group %}
+<div class="content-section hcc">
+  <div class="span12 centered">
+    <div class="row-fluid-wrapper">
+      <div class="row-fluid">
+        <div class="span6 hcc-image">
+          <div class="content-card-image">
+            <img src="{{ rows.content_card_image.src }}" alt="{{ rows.content_card_image.alt }}">
+          </div>
+<!--           <div class="content-card-image-caption" style="background-color:#ED1C24;padding:5px;"> -->
+					{% if rows.choice_field == "exp_date" %}
+<!-- 						<small style="color:#FFFFFF;">Month of {{ rows.expire_date|datetimeformat('%B') }}</small> -->
+					{% endif %}
+<!--           </div> -->
+        </div>
+        <div class="span6 hcc-text">
+          <div class="content-card-text {{ rows.content_card_text_default_alignment }}">
+            {{ rows.content_card_text }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

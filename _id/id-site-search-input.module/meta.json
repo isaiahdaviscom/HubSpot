@@ -1,0 +1,26 @@
+{
+  "content_tags" : [ {
+    "name" : "SEARCH",
+    "source" : "MARKETPLACE"
+  }, {
+    "name" : "COMPATIBLE_BLOG",
+    "source" : "MARKETPLACE"
+  }, {
+    "name" : "COMPATIBLE_PAGE",
+    "source" : "MARKETPLACE"
+  }, {
+    "name" : "SEARCH",
+    "source" : "USER"
+  } ],
+  "global" : false,
+  "smart_type" : "NOT_SMART",
+  "icon" : "https://static.hsappstatic.net/cms-default-modules/static-1.76/img/icon/edited-search.svg",
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "module_id" : 23308281062,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../Templates/iga-theme/core/css/iga.css",
+    "name" : "iga.css"
+  } ],
+  "is_available_for_new_content" : true
+}

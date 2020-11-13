@@ -1,0 +1,27 @@
+{
+  "menu_tree.label" : {
+    "message" : "シンプルメニュー",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.choices.horizontal" : {
+    "message" : "横",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.choices.vertical" : {
+    "message" : "縦",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.label" : {
+    "message" : "メニューの表示方向",
+    "description" : null,
+    "placeholders" : null
+  },
+  "orientation.placeholder" : {
+    "message" : "検索",
+    "description" : null,
+    "placeholders" : null
+  }
+}

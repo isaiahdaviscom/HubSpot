@@ -1,0 +1,17 @@
+{
+  "content_tags" : [ {
+    "name" : "COMPATIBLE_BLOG",
+    "source" : "MARKETPLACE"
+  }, {
+    "name" : "COMPATIBLE_PAGE",
+    "source" : "MARKETPLACE"
+  } ],
+  "extra_classes" : "widget-type-simple_menu",
+  "global" : false,
+  "master_language" : "en",
+  "smart_type" : "NOT_SMART",
+  "icon" : "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Simple%20Menu/icons/Simple%20Menu_icon.svg",
+  "host_template_types" : [ "PAGE", "BLOG_LISTING", "BLOG_POST" ],
+  "module_id" : 8958858,
+  "is_available_for_new_content" : true
+}

@@ -1,0 +1,79 @@
+[ {
+  "id" : "d0e04bc3-105f-e3b7-9e70-89498cc4638a",
+  "name" : "video_url",
+  "label" : "Video URL",
+  "help_text" : "Add your MP4, YouTube or Vimeo video URL",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/videos/act-local-video-sample.mp4"
+}, {
+  "id" : "c84f4a49-0942-0ae5-eb92-6951b22194fe",
+  "name" : "video_poster",
+  "label" : "Poster",
+  "required" : false,
+  "locked" : false,
+  "responsive" : false,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "src" : "https://cdn2.hubspot.net/hubfs/273774/mp/themes/Act-Theme/videos/act-local-video-poster-sample.jpg",
+    "alt" : "",
+    "width" : "1280",
+    "height" : "720"
+  }
+}, {
+  "id" : "bbf80307-ac9a-3b7e-71fa-020a366325de",
+  "name" : "show_controls_on_poster",
+  "label" : "Show controls on poster",
+  "required" : false,
+  "locked" : false,
+  "type" : "boolean",
+  "default" : true
+}, {
+  "id" : "4b3a11c9-1fa5-f4f3-4b63-13e0a3208e8a",
+  "name" : "keep_controls_on_screen_while_playing",
+  "label" : "Keep controls on screen while playing",
+  "required" : false,
+  "locked" : false,
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "b0b431d7-f94b-30d6-baa8-8c4d2733bc29",
+  "name" : "video_category",
+  "label" : "Category",
+  "help_text" : "This is optional, only applicable along with listing sections, when using filtering. You can specify multiple categories separated by commas. Example: apple, orange, pear. Please try using one word with alpha-numeric characters only. You can separate multiple words with \"_\". Example: inbound_marketing. This is case sensitive, so use the same as in your Listing Menu. Example: you have #iPhone in your Listing Menu, it should be iPhone here, not iphone.",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "video"
+}, {
+  "id" : "75b71444-edee-b4f1-9135-3646471abe54",
+  "name" : "custom_class",
+  "label" : "Custom Class",
+  "help_text" : "A custom class that you can target in CSS to further style this module.",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text"
+}, {
+  "id" : "8660e7fc-dae1-4191-d035-95522a0093af",
+  "name" : "background_color",
+  "label" : "Background Color",
+  "required" : false,
+  "locked" : false,
+  "type" : "color",
+  "default" : {
+    "color" : "#ffffff",
+    "opacity" : 100
+  }
+} ]

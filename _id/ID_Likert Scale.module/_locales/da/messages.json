@@ -1,0 +1,57 @@
+{
+  "follow_up_type_automation.label" : {
+    "message" : "Tilføj en arbejdsgang",
+    "description" : null,
+    "placeholders" : null
+  },
+  "follow_up_type_simple.label" : {
+    "message" : "Send en opfølgningsmail",
+    "description" : null,
+    "placeholders" : null
+  },
+  "form.default.message" : {
+    "message" : "Tak, fordi du indsendte formularen.",
+    "description" : null,
+    "placeholders" : null
+  },
+  "form.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "form.label" : {
+    "message" : "Formular",
+    "description" : null,
+    "placeholders" : null
+  },
+  "form_follow_ups_workflow_id.label" : {
+    "message" : "Arbejdsgang",
+    "description" : null,
+    "placeholders" : null
+  },
+  "notifications_are_overridden.label" : {
+    "message" : "Send formularnotifikation til angivne e-mailadresser i stedet for formularstandarderne",
+    "description" : null,
+    "placeholders" : null
+  },
+  "notifications_override_email_addresses.label" : {
+    "message" : "E-mailadresse",
+    "description" : null,
+    "placeholders" : null
+  },
+  "sfdc_campaign.label" : {
+    "message" : "Salesforce-kampagne",
+    "description" : null,
+    "placeholders" : null
+  },
+  "simple_email_for_live_id.label" : {
+    "message" : "E-mail",
+    "description" : null,
+    "placeholders" : null
+  },
+  "title.label" : {
+    "message" : "Formulartitel",
+    "description" : null,
+    "placeholders" : null
+  }
+}

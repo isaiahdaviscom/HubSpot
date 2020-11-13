@@ -1,0 +1,50 @@
+{#
+Feature Drag for mobile 
+arrows for desktop
+possible keyboard controls
+check seo critical paths before successful publishing?
+#}
+<section class="cd-hero">
+  <ul class="cd-hero-slider">
+    {% for slide in module.slides %}
+    <li class="{% if loop.index == 1%}selected{% endif %}">
+      <div class="cd-full-width" style="background-color: {{slide.background_color.color}}">
+        {% if (slide.cta_field) %}
+          {{ cta(slide.cta_field) }}
+        {% endif %}
+        {% if (slide.image_field) %}
+          <img class="cd-hero-img" src="{{slide.image_field.src}}"/>
+        {% endif %}
+        {# <h2>{{ slide.text_field }}</h2> #}
+        {# {% if (slide.cta_field) %}{{ cta(slide.cta_field) }}{% endif %}  #}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  {% if (module.slides|length > 1 ) and module.thumbnails == true %}
+  <div class="cd-slider-nav">
+    <nav>
+      <ul style="padding: 0;margin:0;">
+        {% for slide in module.slides %}
+        <li class="col-1{% if loop.index == 1%} selected{% endif %}">
+          <a href="#0" style="background:url({{ resize_image_url(slide.image_field.src, 1440) }}) center center;background-size:cover;">
+            {# <img src="{{ resize_image_url(slide.image_field.src, 1440) }}"> #}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      <span class="cd-marker item-1"></span>
+    </nav>
+  </div>
+  {% endif %}
+</section>
+{# 
+  <img src="https://www.iga.com/hs-fs/hubfs/preview-lightbox-feature-update-iwantto.jpg?width=1920&amp;name=preview-lightbox-feature-update-iwantto.jpg" alt="preview-lightbox-feature-update-iwantto" width="1920" style="width: 1920px;" 
+    srcset="https://www.iga.com/hs-fs/hubfs/preview-lightbox-feature-update-iwantto.jpg?width=960&amp;name=preview-lightbox-feature-update-iwantto.jpg 960w, 
+    https://www.iga.com/hs-fs/hubfs/preview-lightbox-feature-update-iwantto.jpg?width=1920&amp;name=preview-lightbox-feature-update-iwantto.jpg 1920w, 
+    https://www.iga.com/hs-fs/hubfs/preview-lightbox-feature-update-iwantto.jpg?width=2880&amp;name=preview-lightbox-feature-update-iwantto.jpg 2880w,
+    https://www.iga.com/hs-fs/hubfs/preview-lightbox-feature-update-iwantto.jpg?width=3840&amp;name=preview-lightbox-feature-update-iwantto.jpg 3840w, 
+    https://www.iga.com/hs-fs/hubfs/preview-lightbox-feature-update-iwantto.jpg?width=4800&amp;name=preview-lightbox-feature-update-iwantto.jpg 4800w, 
+    https://www.iga.com/hs-fs/hubfs/preview-lightbox-feature-update-iwantto.jpg?width=5760&amp;name=preview-lightbox-feature-update-iwantto.jpg 5760w" 
+    sizes="(max-width: 1920px) 100vw, 1920px">
+#}

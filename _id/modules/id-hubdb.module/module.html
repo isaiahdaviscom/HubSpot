@@ -1,0 +1,41 @@
+{# 
+{{img(content.group.image.url, "w300", "content-card-image")}} {{html("<div><h4>{{content.list[loop.index0].name}}</h4><p>{{content.list[loop.index0].start_date}}-{{content.list[loop.index0].end_date}}</br>{{content.list[loop.index0].location}}</div>","","content-card-body",true)}}
+#}
+{% set tableId = module.hubdbtable_field %}
+{% set classes = module.classes %}
+{% set filterQuery = module.text_field %}
+{% set grouping = module.grouping %}
+{% set is_grouping = grouping ? true : false  %}
+{% set view = module.display_type %}
+{% set columns = module.columns %}
+{% set rows = hubdb_table_rows(tableId, filterQuery) %} {# list #}
+{% set groups = grouping ? rows|groupby(grouping) : rows %} {# list => grouperObject| list#}
+{# template_partials #}
+{% macro img(src, class, parent_class) %}
+  <div class="{{parent_class}}">
+    <img class="{{class}}" src="{{src}}">
+  </div>
+{% endmacro %}
+{% macro html(value, class, parent_class, repeat) %}
+  {% set value = value|regex_replace("&gt;", ">")|regex_replace("&lt;", "<") %}
+  <div class="{{parent_class}}">
+  {% for item in content.list %}
+    {{value}}
+  {% endfor %}
+  </div>
+{% endmacro %}
+{# end template_partials #}
+{% macro the_loop( content ) %}
+{% set content = content.grouperObject[0] ? {'group':content.grouperObject[0],'list':content.list} : content %}
+  {{module.template}}
+{% endmacro %}
+{# HTML #}
+<div class="container">
+  <div class="{{module.layout}}">
+    {% for group in groups %}
+    <div class="{{view}} content-card">
+      {{ the_loop( group ) }}
+    </div>
+    {% endfor %}
+  </div>
+</div>

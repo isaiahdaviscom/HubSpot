@@ -1,0 +1,38 @@
+{
+  "content_tags" : [ {
+    "name" : "OTHER_INDUSTRY",
+    "source" : "MARKETPLACE"
+  }, {
+    "name" : "COMPATIBLE_ANY",
+    "source" : "MARKETPLACE"
+  } ],
+  "extra_classes" : "widget-type-social_sharing",
+  "global" : false,
+  "master_language" : "en",
+  "smart_type" : "NOT_SMART",
+  "icon" : "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Social_Sharing/icons/Social%20Sharing_icon.svg",
+  "host_template_types" : [ "ANY" ],
+  "module_id" : 8821597,
+  "other_assets" : [ {
+    "url" : "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Social_Sharing/81/facebook-color.png",
+    "autoload" : false,
+    "name" : "facebook-color.png"
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Social_Sharing/81/linkedin-color.png",
+    "autoload" : false,
+    "name" : "linkedin-color.png"
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Social_Sharing/81/twitter-color.png",
+    "autoload" : false,
+    "name" : "twitter-color.png"
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Social_Sharing/81/pinterest-color.png",
+    "autoload" : false,
+    "name" : "pinterest-color.png"
+  }, {
+    "url" : "https://cdn2.hubspot.net/hubfs/3275719/hs_marketplace_assets/modules/Social_Sharing/81/email-color.png",
+    "autoload" : false,
+    "name" : "email-color.png"
+  } ],
+  "is_available_for_new_content" : true
+}

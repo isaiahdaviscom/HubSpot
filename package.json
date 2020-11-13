@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hubspot/cms-cli": "^1.1.10"
+    "@hubspot/cms-cli": "^2.2.0"
   }
 }

@@ -1,0 +1,32 @@
+{% set row = module.field_group %}
+{% set is_equal_height = module.equal_height %}
+<div class="full-width {{ is_equal_height is truthy ? "row" : "card-deck" }}">
+	{% for group in row %}
+  <div class="col-sm-6 mb-4">
+    <div class="card {{ module.classes }}">
+			<div class="card-media">
+				{% if group.video_url is string_containing 'youtube.com' or group.video_url is string_containing 'vimeo.com' %}
+				<div class="media-player video {{ group.custom_class }}
+					{% if not group.show_controls_on_poster %} controls-off-poster{% endif %}
+					{% if group.keep_controls_on_screen_while_playing %} controls-on-play{% endif %}
+				">
+						{% if group.video_url is string_containing 'youtube.com' %}
+								<div data-type="youtube" data-video-id="{{ group.video_url|trim }}"></div>
+						{% elif group.video_url is string_containing 'vimeo.com' %}
+								<div data-type="vimeo" data-video-id="{{ group.video_url|trim }}"></div>
+						{% else %}
+								<video{% if group.video_poster.src %} poster="{{ group.video_poster.src }}"{% endif %} controls>
+										<source src="{{ group.video_url|trim }}" type="video/mp4">
+								</video>
+						{% endif %}
+				</div>
+				<div class="listing-filter" data-filter="{{ group.video_category|replace(' ', '')|replace(',', ' ') }}">{{ group.video_category }}</div>
+				{% endif %}
+			</div>
+      <div class="card-body">
+        {{ group.richtext_field }}
+      </div>
+    </div>
+  </div>
+	{% endfor %}
+</div>

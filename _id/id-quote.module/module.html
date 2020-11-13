@@ -1,0 +1,24 @@
+<div class="page-section active-offset-300 content-section pt0">
+  <div class="centered vmiddle md-stack shift-col">
+    <div class="content-section ptb40 plr110 sm-plr70 xs-plr20 nmt100 md-mt0 radius"><!-- removed: bg-theme white-content large-shadow-->
+      <div class="static-header tc" ><div class="icon"><!-- <i class="fa fa-quote-left" aria-hidden="true"></i>--></div></div>
+      <div class="slider-container arrows arrows-outside xs-no-arrows dots dots-below infinite">
+        {% for content in module.field_group %}
+        <div class="simple-quote clearfix {{ content.alignment }} {{ content.custom_class }}">
+            <div class="quote clearfix">
+                {{ content.quote }}
+            </div>
+            {% if content.author.src %}
+                <div class="author">
+                    <img src="{{ content.author.src }}" width="{{ content.author.width }}" height="{{ content.author.height }}" alt="{{ content.author.alt }}">
+                </div>
+            {% endif %}
+            <div class="details clearfix">
+                {{ content.details }}
+            </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,283 @@
+<!--
+  templateType: "page"
+  isAvailableForNewContent: true
+-->
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="{{ html_lang }}" {{ html_lang_dir }}> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="{{ html_lang }}" {{ html_lang_dir }}>        <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="{{ html_lang }}" {{ html_lang_dir }}>               <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="{{ html_lang }}" {{ html_lang_dir }}> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="{{ meta_author }}">
+    <meta name="description" content="{{ page_meta.meta_description }}">
+    <meta name="generator" content="HubSpot">
+    <title>{{ page_meta.html_title }}</title>
+    {% if site_settings.favicon_src %}<link rel="shortcut icon" href="{{ site_settings.favicon_src }}" />{% endif %}
+    
+{{ required_head_tags }}
+    {% choice "show_modules" label='Choose a Banner, Slider, or Page Title', value='Banner', choices='Banner, Slider, Page Title' export_to_template_context=True %}
+{% boolean "breadcrumb_toggle" label='Show Breadcrumbs', value=True, export_to_template_context=True %}
+    {{ include_css("hubspot_default/shared/responsive/layout.css") }}
+    {{ include_attached_css( [{"id":5864962930,"type":"cos_extension_resource"}]) }}
+    {{ user_head_overrides }}
+
+</head>
+<body class="act-theme act-one-column {{ builtin_body_classes }}" style="">
+    <div class="header-container-wrapper">
+    <div class="header-container container-fluid">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+{% include '/generated_global_groups/5851898556.html' %}
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+{% include '/generated_global_groups/5846761334.html' %}
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+{% include '/generated_global_groups/5846761383.html' %}
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-global_group hidden md-visible" style="" data-widget-type="global_group" data-x="0" data-w="12">
+{% include '/generated_global_groups/5846761351.html' %}
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end header -->
+</div><!--end header wrapper -->
+
+<div class="body-container-wrapper">
+    <div class="body-container container-fluid">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+{% set urlPath = request.path|split('/',2) %} 
+{% if urlPath[0]|lower == "corporate" %}
+	
+<div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+{% include '/generated_global_groups/6022280692.html' %}
+</div><!--end widget-span -->
+
+{% endif %}
+
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+{% if widget_data.show_modules.value == "Banner" %}
+
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+{% module_block module "module_1532637172671323" module_id=3066475, overrideable=True, path='/Templates/iga-theme/core/components/theme-modules/Act2 Hero Banner', per_widget_wrapper_html='', widget_name='Act2 Hero Banner', wrapping_html='{% if widget_data.show_modules.value == "Banner" %}\n{{html}}\n{% endif %}', label='Act2 Hero Banner' %}
+{% end_module_block %}
+
+</div><!--end widget-span -->
+
+{% endif %}
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-3 ">
+<div class="row-fluid ">
+{% if widget_data.show_modules.value == "Slider" %}
+
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+{% module_block module "module_153358606554259" module_id=3066473, overlay_color='', overlay_opacity='', overrideable=True, path='/Templates/iga-theme/core/components/theme-modules/Act2 Hero Slider', per_widget_wrapper_html='', widget_name='Act2 Hero Slider', wrapping_html='{% if widget_data.show_modules.value == "Slider" %}\n{{html}}\n{% endif %}', label='Act2 Hero Slider' %}
+{% end_module_block %}
+
+</div><!--end widget-span -->
+
+{% endif %}
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-4 ">
+<div class="row-fluid ">
+{% if widget_data.show_modules.value == "Page Title" %}
+
+<div class="span12 widget-span widget-type-cell page-title-wrapper" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-5 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell centered" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-6 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-custom_widget " style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+{% module_block module "module_1528748067278856" module_id=3080382, overrideable=True, path='/Templates/iga-theme/core/components/custom-modules/Page Title', per_widget_wrapper_html='', widget_name='Page Title', wrapping_html='', label='Page Title' %}
+  {% end_module_block %}
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+
+{% endif %}
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-7 ">
+<div class="row-fluid ">
+{% if widget_data.breadcrumb_toggle.value %}
+
+<div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+{% include '/generated_global_groups/5929108199.html' %}
+</div><!--end widget-span -->
+
+{% endif %}
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-8 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell content-section" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-9 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-cell centered" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-10 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-widget_container " style="" data-widget-type="widget_container" data-x="0" data-w="12">
+{% widget_container "module_1528749231510879" overrideable=False, per_widget_wrapper_html='', wrapping_html='', label='Top Content' %}
+{% widget_block rich_text "module_14876127462771000" overrideable=True, label='Rich Text' %}
+{% widget_attribute "html" %}<h2>Better Typography and Spacing</h2>
+<p>Praesent quis ipsum mattis, molestie nunc ut, rhoncus libero. Quisque auctor tempor arcu sit amet laoreet. Nam scelerisque, felis sed semper rutrum, ligula massa semper turpis, vitae commodo dolor tellus quis libero. Quisque ut scelerisque sapien. Sed at dolor in risus lobortis interdum in eu sapien. Morbi aliquet commodo est sed malesuada. Vestibulum sit amet semper tellus, lacinia fermentum est. Integer et urna nec enim tristique mollis. Sed suscipit mauris quis suscipit semper. Quisque at laoreet diam. Nulla vehicula tortor lacus, posuere ornare ipsum mattis sed.
+	
+	{% if dynamic_page_hubdb_row %}
+  {{ dynamic_page_hubdb_row.hs_name }}
+  {{ dynamic_page_hubdb_row.name }}
+  {{ dynamic_page_hubdb_row.role }}
+{% endif %}
+hello
+	
+	</p>
+<p>&nbsp;</p>{% end_widget_attribute %}
+  {% end_widget_block %}
+{% module_block module "module_1590167436111569" wrapping_html='', per_widget_wrapper_html='', overrideable=True, widget_name='HTML', module_id=2564054, path='/Marketplace/HubSpot/HTML/HTML', label='HTML' %}
+{% module_attribute "html" %}{% end_module_attribute %}
+  {% end_module_block %}
+
+{% end_widget_container %}
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-11 ">
+<div class="row-fluid ">
+<div class="span8 widget-span widget-type-widget_container " style="" data-widget-type="widget_container" data-x="0" data-w="8">
+{% widget_container "module_1528753364385921" overrideable=False, per_widget_wrapper_html='', wrapping_html='', label='Left Half Middle Content' %}
+{% module_block module "module_1590119727846493" wrapping_html='', per_widget_wrapper_html='', overrideable=True, widget_name='HTML', module_id=2564054, path='/Marketplace/HubSpot/HTML/HTML', label='HTML' %}
+  {% end_module_block %}
+
+{% end_widget_container %}
+</div><!--end widget-span -->
+<div class="span4 widget-span widget-type-widget_container " style="" data-widget-type="widget_container" data-x="8" data-w="4">
+{% widget_container "module_1528753368183924" overrideable=False, per_widget_wrapper_html='', wrapping_html='', label='Right Half Middle Content' %}
+{% module_block module "module_1590119672829480" wrapping_html='', per_widget_wrapper_html='', overrideable=True, widget_name='HTML', module_id=2564054, path='/Marketplace/HubSpot/HTML/HTML', label='HTML' %}
+  {% end_module_block %}
+{% module_block module "module_1590121694266546" wrapping_html='', per_widget_wrapper_html='', overrideable=True, widget_name='Act2 Boxed Accordion', module_id=3066487, path='/Templates/iga-theme/core/components/theme-modules/Act2 Boxed Accordion', label='Act2 Boxed Accordion' %}
+  {% end_module_block %}
+
+{% end_widget_container %}
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-12 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-widget_container " style="" data-widget-type="widget_container" data-x="0" data-w="12">
+{% widget_container "module_1528749492968899" overrideable=False, per_widget_wrapper_html='', wrapping_html='', label='Bottom Content' %}
+{% widget_block rich_text "module_14876127561351004" overrideable=True, label='Rich Text' %}
+{% widget_attribute "html" %}<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec non urna suscipit metus sollicitudin lacinia quis mollis enim. Curabitur elit metus, lobortis eu sagittis mattis, lobortis vel urna. Sed commodo, libero vitae gravida laoreet, tellus ipsum sodales neque, at viverra tellus velit a elit. Praesent tristique gravida nibh non eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce vitae tortor posuere, bibendum nisi ac, rhoncus justo. Nulla dapibus, nibh sed volutpat scelerisque, arcu enim posuere dui, nec egestas mi velit vel sem.</p>{% end_widget_attribute %}
+  {% end_widget_block %}
+{% cta "module_1508809888360260" embed_code='<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" id="hs-cta-wrapper-26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d"><span class="hs-cta-node hs-cta-26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d" id="hs-cta-26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d"><!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/3870075/26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d" ><img class="hs-cta-img" id="hs-cta-img-26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/3870075/26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d.png"  alt="Call to Action"/></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script><script type="text/javascript"> hbspt.cta.load(3870075, \'26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d\', {}); </script></span><!-- end HubSpot Call-to-Action Code -->', guid='26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d', image_html='<!--HubSpot Call-to-Action Code --><span class="hs-cta-wrapper" data-hs-img-pg="26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d" id="hs-cta-wrapper-26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d"><span class="hs-cta-node hs-cta-26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d" id="hs-cta-26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d"><a href="https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/ci/?pg=26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d&pid=3870075&ecid={{encrypted_contact_id}}&hseid={{email_campaign_id}}&hsic={{impersonated_contact}}" ><img class="hs-cta-img" id="hs-cta-img-26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d" style="border-width:0px;" mce_noresize="1" src="https://cta-image-cms2.hubspot.com/ctas/v2/public/cs/il/?pg=26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d&pid=3870075&ecid={{encrypted_contact_id}}&hseid={{email_campaign_id}}&hsic={{impersonated_contact}}"  alt="Call to Action"/></a></span></span><!-- end HubSpot Call-to-Action Code -->', image_src='https://no-cache.hubspot.com/cta/default/3870075/26d71e30-5ccd-4cee-a1a8-7fdc8b0aac0d.png', overrideable=True, per_widget_wrapper_html='', wrapping_html='', label='Call-to-Action' %}
+
+{% end_widget_container %}
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-13 ">
+<div class="row-fluid ">
+<div class="vcenter-outer">
+    
+<div class="span12 widget-span widget-type-cell vcenter-inner content-section partner-callout" style="" data-widget-type="cell" data-x="0" data-w="12">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-14 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-widget_container centered vmiddle sm-tc" style="" data-widget-type="widget_container" data-x="0" data-w="12">
+{% widget_container "module_1535388947111111" overrideable=False, per_widget_wrapper_html='', wrapping_html='', label='Module group' %}
+
+{% end_widget_container %}
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+</div><!--end widget-span -->
+ 
+</div>
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end body -->
+</div><!--end body wrapper -->
+
+<div class="footer-container-wrapper">
+    <div class="footer-container container-fluid">
+
+<div class="row-fluid-wrapper row-depth-1 row-number-1 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-global_group " style="" data-widget-type="global_group" data-x="0" data-w="12">
+{% include '/generated_global_groups/5846761367.html' %}
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+<div class="row-fluid-wrapper row-depth-1 row-number-2 ">
+<div class="row-fluid ">
+<div class="span12 widget-span widget-type-global_widget " style="" data-widget-type="global_widget" data-x="0" data-w="12">
+<div class="cell-wrapper layout-widget-wrapper">
+{% global_widget "act2_javascript__do_not_delete_must_be_last" overrideable=False, per_widget_wrapper_html='', wrapping_html='', label='Act2 JavaScript - DO NOT DELETE, MUST BE LAST' %}</div><!--end layout-widget-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+
+    </div><!--end footer -->
+</div><!--end footer wrapper -->
+
+    {{ standard_footer_includes }}
+    
+    <!-- Generated by the HubSpot Template Builder - template version 1.03 -->
+</body>
+</html>

@@ -1,0 +1,1531 @@
+{
+  "isAvailableForNewContent" : true,
+  "templateType" : 4,
+  "attachedStylesheets" : [ ],
+  "attachedJs" : [ ],
+  "customHead" : "",
+  "customFooter" : "<style>\n  /* width */\n  ::-webkit-scrollbar {\n    width: 10px;\n  }\n  /* Track */\n  ::-webkit-scrollbar-track {\n    background: #f1f1f1; \n  }\n\n  /* Handle */\n  ::-webkit-scrollbar-thumb {\n    background: #888; \n  }\n\n  /* Handle on hover */\n  ::-webkit-scrollbar-thumb:hover {\n    background: #555; \n  }\n  html,body { height:100%; }\n  .body-container-wrapper {\n    height: calc(100% - 92px - 78px);\n    overflow-y: scroll;\n  }\n</style>",
+  "bodyClass" : "act-theme act-three-column-hero-sub-menu",
+  "bodyCss" : "overflow:hidden;",
+  "bodyEditable" : false,
+  "layoutData" : {
+    "x" : 0,
+    "w" : 12,
+    "name" : "",
+    "label" : "",
+    "type" : "cell",
+    "params" : { },
+    "rows" : [ {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1567769956306267",
+        "label" : "IGA Header Full-Width",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "generated_global_groups/12737148876.html",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : "",
+          "generated_template_path" : "generated_global_groups/12737148876.html"
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_14946037326686026",
+        "label" : "Act2/Act2 Search",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "ending_html" : "",
+          "overrideable" : false,
+          "path" : "generated_global_groups/5846761383.html",
+          "starting_html" : "",
+          "generated_template_path" : "generated_global_groups/5846761383.html"
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_14946037352546028",
+        "label" : "Act2/Act2 Menu Slide",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "ending_html" : "",
+          "overrideable" : false,
+          "path" : "generated_global_groups/5846761351.html",
+          "starting_html" : "",
+          "generated_template_path" : "generated_global_groups/5846761351.html"
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : {
+          "cell" : false,
+          "cells" : [ ],
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "ending_html" : "",
+          "root" : false,
+          "row" : false,
+          "starting_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_150824368148300",
+        "label" : "Content Section",
+        "type" : "cell",
+        "params" : {
+          "css_class" : "content-section sticky-parent",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : ""
+        },
+        "rows" : [ {
+          "0" : {
+            "x" : 0,
+            "w" : 12,
+            "name" : "module_150824368148301",
+            "label" : "Centered",
+            "type" : "cell",
+            "params" : {
+              "css_class" : "centered md-stack",
+              "css_id" : "",
+              "css_id_str" : "",
+              "css_style" : "max-width:100%;",
+              "overrideable" : false,
+              "per_widget_wrapper_html" : "",
+              "wrapping_html" : ""
+            },
+            "rows" : [ {
+              "0" : {
+                "x" : 0,
+                "w" : 3,
+                "name" : "module_150824368148302",
+                "label" : "Left",
+                "type" : "cell",
+                "params" : {
+                  "css_class" : "md-mb50",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 12,
+                    "name" : "module_150824368148303",
+                    "label" : "Sticky Item",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "sticky-item offset-100 md-cancel",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_150824368148304",
+                        "label" : "Menu",
+                        "type" : "menu",
+                        "params" : {
+                          "css_class" : "sub-menu hidden-sublevels",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "flow" : "vertical",
+                          "flyouts" : "false",
+                          "max_levels" : "2",
+                          "overrideable" : false,
+                          "per_widget_wrapper_html" : "",
+                          "root_type" : "site_root",
+                          "site_map_name" : "default",
+                          "wrapping_html" : "",
+                          "id" : 11564805232
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "sub-menu hidden-sublevels",
+                        "cssStyle" : "",
+                        "styles" : null
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "sticky-item offset-100 md-cancel",
+                    "cssStyle" : "",
+                    "styles" : null
+                  }
+                } ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "md-mb50",
+                "cssStyle" : "",
+                "styles" : null
+              },
+              "3" : {
+                "x" : 3,
+                "w" : 9,
+                "name" : "module_150824368148305",
+                "label" : "Right",
+                "type" : "cell",
+                "params" : {
+                  "css_class" : "",
+                  "css_id" : "",
+                  "css_id_str" : "",
+                  "css_style" : "",
+                  "overrideable" : false,
+                  "per_widget_wrapper_html" : "",
+                  "wrapping_html" : ""
+                },
+                "rows" : [ {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 12,
+                    "name" : "module_150824368148306",
+                    "label" : "Section Intro",
+                    "type" : "rich_text",
+                    "params" : {
+                      "css_class" : "section-intro",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "html" : "<h1>Documentation</h1>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut elit faucibus sem aliquam condimentum. Duis lacus nunc interdum.</p>",
+                      "overrideable" : true,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "section-intro",
+                    "cssStyle" : "",
+                    "styles" : null
+                  }
+                }, {
+                  "0" : {
+                    "x" : 0,
+                    "w" : 12,
+                    "name" : "module_150824368148307",
+                    "label" : "Equal Height",
+                    "type" : "cell",
+                    "params" : {
+                      "css_class" : "equal-height tc",
+                      "css_id" : "",
+                      "css_id_str" : "",
+                      "css_style" : "",
+                      "overrideable" : false,
+                      "per_widget_wrapper_html" : "",
+                      "wrapping_html" : ""
+                    },
+                    "rows" : [ {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 12,
+                        "name" : "module_156814875915699",
+                        "label" : "Flexible column",
+                        "type" : "widget_container",
+                        "params" : {
+                          "css_class" : "",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "wrapping_html" : "",
+                          "per_widget_wrapper_html" : "",
+                          "overrideable" : false
+                        },
+                        "rows" : [ ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "",
+                        "cssStyle" : "",
+                        "styles" : null
+                      }
+                    }, {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 4,
+                        "name" : "module_150824368148308",
+                        "label" : "Content Card",
+                        "type" : "cell",
+                        "params" : {
+                          "css_class" : "content-card mb30",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "overrideable" : false,
+                          "per_widget_wrapper_html" : "",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_150824368148309",
+                            "label" : "Text",
+                            "type" : "cell",
+                            "params" : {
+                              "css_class" : "content-card-text",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "overrideable" : false,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_150824368148310",
+                                "label" : "Icon",
+                                "type" : "raw_html",
+                                "params" : {
+                                  "css_class" : "icon-dot theme mb10",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "value" : "<i class=\"fa fa-magic\" aria-hidden=\"true\"></i>",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "icon-dot theme mb10",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            }, {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_150824368148311",
+                                "label" : "Text",
+                                "type" : "rich_text",
+                                "params" : {
+                                  "css_class" : "pns",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "html" : "<h4>Getting Started</h4>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "pns",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            } ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-text",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        }, {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_150824368148312",
+                            "label" : "Link",
+                            "type" : "rich_text",
+                            "params" : {
+                              "css_class" : "content-card-link",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "html" : "<a href=\"#link-to-helpful-article\">Getting Started</a>",
+                              "overrideable" : true,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-link",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        } ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "content-card mb30",
+                        "cssStyle" : "",
+                        "styles" : null
+                      },
+                      "4" : {
+                        "x" : 4,
+                        "w" : 4,
+                        "name" : "module_150824368148313",
+                        "label" : "Content Card",
+                        "type" : "cell",
+                        "params" : {
+                          "css_class" : "content-card mb30",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "overrideable" : false,
+                          "per_widget_wrapper_html" : "",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_150824368148314",
+                            "label" : "Text",
+                            "type" : "cell",
+                            "params" : {
+                              "css_class" : "content-card-text",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "overrideable" : false,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_150824368148315",
+                                "label" : "Icon",
+                                "type" : "raw_html",
+                                "params" : {
+                                  "css_class" : "icon-dot theme mb10",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "value" : "<i class=\"fa fa-user\" aria-hidden=\"true\"></i>",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "icon-dot theme mb10",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            }, {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_150824368148316",
+                                "label" : "Text",
+                                "type" : "rich_text",
+                                "params" : {
+                                  "css_class" : "pns",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "html" : "<h4>Add Users</h4>\n<p>Pellentesque in ipsum et massa efficitur imperdiet</p>",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "pns",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            } ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-text",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        }, {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_150824368148317",
+                            "label" : "Link",
+                            "type" : "rich_text",
+                            "params" : {
+                              "css_class" : "content-card-link",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "html" : "<a href=\"#link-to-helpful-article\">Add Users</a>",
+                              "overrideable" : true,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-link",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        } ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "content-card mb30",
+                        "cssStyle" : "",
+                        "styles" : null
+                      },
+                      "8" : {
+                        "x" : 8,
+                        "w" : 4,
+                        "name" : "module_150824368148318",
+                        "label" : "Content Card",
+                        "type" : "cell",
+                        "params" : {
+                          "css_class" : "content-card mb30",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "overrideable" : false,
+                          "per_widget_wrapper_html" : "",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_150824368148319",
+                            "label" : "Text",
+                            "type" : "cell",
+                            "params" : {
+                              "css_class" : "content-card-text",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "overrideable" : false,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_150824368148320",
+                                "label" : "Icon",
+                                "type" : "raw_html",
+                                "params" : {
+                                  "css_class" : "icon-dot theme mb10",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "value" : "<i class=\"fa fa-cloud\" aria-hidden=\"true\"></i>",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "icon-dot theme mb10",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            }, {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_150824368148321",
+                                "label" : "Text",
+                                "type" : "rich_text",
+                                "params" : {
+                                  "css_class" : "pns",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "html" : "<h4>Manage Storage</h4>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "pns",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            } ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-text",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        }, {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_150824368148322",
+                            "label" : "Link",
+                            "type" : "rich_text",
+                            "params" : {
+                              "css_class" : "content-card-link",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "html" : "<a href=\"#link-to-helpful-article\">Manage Storage</a>",
+                              "overrideable" : true,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-link",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        } ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "content-card mb30",
+                        "cssStyle" : "",
+                        "styles" : null
+                      }
+                    }, {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 4,
+                        "name" : "module_150824368148324",
+                        "label" : "Content Card",
+                        "type" : "cell",
+                        "params" : {
+                          "css_class" : "content-card mb30",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "overrideable" : false,
+                          "per_widget_wrapper_html" : "",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_150824368148325",
+                            "label" : "Text",
+                            "type" : "cell",
+                            "params" : {
+                              "css_class" : "content-card-text",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "overrideable" : false,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_150824368148326",
+                                "label" : "Icon",
+                                "type" : "raw_html",
+                                "params" : {
+                                  "css_class" : "icon-dot theme mb10",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "value" : "<i class=\"fa fa-tachometer\" aria-hidden=\"true\"></i>",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "icon-dot theme mb10",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            }, {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_150824368148327",
+                                "label" : "Text",
+                                "type" : "rich_text",
+                                "params" : {
+                                  "css_class" : "pns",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "html" : "<h4>Generate Reports</h4>\n<p>Pellentesque in ipsum et massa efficitur imperdiet</p>",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "pns",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            } ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-text",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        }, {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_150824368148328",
+                            "label" : "Link",
+                            "type" : "rich_text",
+                            "params" : {
+                              "css_class" : "content-card-link",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "html" : "<a href=\"#link-to-helpful-article\">Generate Reports</a>",
+                              "overrideable" : true,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-link",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        } ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "content-card mb30",
+                        "cssStyle" : "",
+                        "styles" : null
+                      },
+                      "4" : {
+                        "x" : 4,
+                        "w" : 4,
+                        "name" : "module_150824368148329",
+                        "label" : "Content Card",
+                        "type" : "cell",
+                        "params" : {
+                          "css_class" : "content-card mb30",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "overrideable" : false,
+                          "per_widget_wrapper_html" : "",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_150824368148330",
+                            "label" : "Text",
+                            "type" : "cell",
+                            "params" : {
+                              "css_class" : "content-card-text",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "overrideable" : false,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_150824368148331",
+                                "label" : "Icon",
+                                "type" : "raw_html",
+                                "params" : {
+                                  "css_class" : "icon-dot theme mb10",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "value" : "<i class=\"fa fa-pie-chart\" aria-hidden=\"true\"></i>",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "icon-dot theme mb10",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            }, {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_150824368148332",
+                                "label" : "Text",
+                                "type" : "rich_text",
+                                "params" : {
+                                  "css_class" : "pns",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "html" : "<h4>Change Settings</h4>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "pns",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            } ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-text",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        }, {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_150824368148333",
+                            "label" : "Link",
+                            "type" : "rich_text",
+                            "params" : {
+                              "css_class" : "content-card-link",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "html" : "<a href=\"#link-to-helpful-article\">Change Settings</a>",
+                              "overrideable" : true,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-link",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        } ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "content-card mb30",
+                        "cssStyle" : "",
+                        "styles" : null
+                      },
+                      "8" : {
+                        "x" : 8,
+                        "w" : 4,
+                        "name" : "module_150824368148334",
+                        "label" : "Content Card",
+                        "type" : "cell",
+                        "params" : {
+                          "css_class" : "content-card mb30",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "overrideable" : false,
+                          "per_widget_wrapper_html" : "",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_150824368148335",
+                            "label" : "Text",
+                            "type" : "cell",
+                            "params" : {
+                              "css_class" : "content-card-text",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "overrideable" : false,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_150824368148336",
+                                "label" : "Icon",
+                                "type" : "raw_html",
+                                "params" : {
+                                  "css_class" : "icon-dot theme mb10",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "value" : "<i class=\"fa fa-wrench\" aria-hidden=\"true\"></i>",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "icon-dot theme mb10",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            }, {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_150824368148337",
+                                "label" : "Text",
+                                "type" : "rich_text",
+                                "params" : {
+                                  "css_class" : "pns",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "html" : "<h4>Fix Problems</h4>\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "pns",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            } ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-text",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        }, {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_150824368148338",
+                            "label" : "Link",
+                            "type" : "rich_text",
+                            "params" : {
+                              "css_class" : "content-card-link",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "html" : "<a href=\"#link-to-helpful-article\">Fix Problems</a>",
+                              "overrideable" : true,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-link",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        } ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "content-card mb30",
+                        "cssStyle" : "",
+                        "styles" : null
+                      }
+                    }, {
+                      "0" : {
+                        "x" : 0,
+                        "w" : 4,
+                        "name" : "module_1567810995358382",
+                        "label" : "Content Card",
+                        "type" : "cell",
+                        "params" : {
+                          "css_class" : "content-card mb30",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "overrideable" : false,
+                          "per_widget_wrapper_html" : "",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_1567810995358383",
+                            "label" : "Text",
+                            "type" : "cell",
+                            "params" : {
+                              "css_class" : "content-card-text",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "overrideable" : false,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_1567810995358384",
+                                "label" : "Icon",
+                                "type" : "raw_html",
+                                "params" : {
+                                  "css_class" : "icon-dot theme mb10",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "value" : "<i class=\"fa fa-tachometer\" aria-hidden=\"true\"></i>",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "icon-dot theme mb10",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            }, {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_1567810995358385",
+                                "label" : "Text",
+                                "type" : "rich_text",
+                                "params" : {
+                                  "css_class" : "pns",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "html" : "<h4>Generate Reports</h4>\n<p>Pellentesque in ipsum et massa efficitur imperdiet</p>",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "pns",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            } ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-text",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        }, {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_1567810995358386",
+                            "label" : "Link",
+                            "type" : "rich_text",
+                            "params" : {
+                              "css_class" : "content-card-link",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "html" : "<a href=\"#link-to-helpful-article\">Generate Reports</a>",
+                              "overrideable" : true,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-link",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        } ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "content-card mb30",
+                        "cssStyle" : "",
+                        "styles" : null
+                      },
+                      "4" : {
+                        "x" : 4,
+                        "w" : 4,
+                        "name" : "module_1567811000018397",
+                        "label" : "Content Card",
+                        "type" : "cell",
+                        "params" : {
+                          "css_class" : "content-card mb30",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "overrideable" : false,
+                          "per_widget_wrapper_html" : "",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_1567811000018398",
+                            "label" : "Text",
+                            "type" : "cell",
+                            "params" : {
+                              "css_class" : "content-card-text",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "overrideable" : false,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_1567811000018399",
+                                "label" : "Icon",
+                                "type" : "raw_html",
+                                "params" : {
+                                  "css_class" : "icon-dot theme mb10",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "value" : "<i class=\"fa fa-tachometer\" aria-hidden=\"true\"></i>",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "icon-dot theme mb10",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            }, {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_1567811000018400",
+                                "label" : "Text",
+                                "type" : "rich_text",
+                                "params" : {
+                                  "css_class" : "pns",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "html" : "<h4>Generate Reports</h4>\n<p>Pellentesque in ipsum et massa efficitur imperdiet</p>",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "pns",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            } ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-text",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        }, {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_1567811000018401",
+                            "label" : "Link",
+                            "type" : "rich_text",
+                            "params" : {
+                              "css_class" : "content-card-link",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "html" : "<a href=\"#link-to-helpful-article\">Generate Reports</a>",
+                              "overrideable" : true,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-link",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        } ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "content-card mb30",
+                        "cssStyle" : "",
+                        "styles" : null
+                      },
+                      "8" : {
+                        "x" : 8,
+                        "w" : 4,
+                        "name" : "module_1567811075724432",
+                        "label" : "Content Card",
+                        "type" : "cell",
+                        "params" : {
+                          "css_class" : "content-card mb30",
+                          "css_id" : "",
+                          "css_id_str" : "",
+                          "css_style" : "",
+                          "overrideable" : false,
+                          "per_widget_wrapper_html" : "",
+                          "wrapping_html" : ""
+                        },
+                        "rows" : [ {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_1567811075724433",
+                            "label" : "Text",
+                            "type" : "cell",
+                            "params" : {
+                              "css_class" : "content-card-text",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "overrideable" : false,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_1567811075724434",
+                                "label" : "Icon",
+                                "type" : "raw_html",
+                                "params" : {
+                                  "css_class" : "icon-dot theme mb10",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "value" : "<i class=\"fa fa-tachometer\" aria-hidden=\"true\"></i>",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "icon-dot theme mb10",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            }, {
+                              "0" : {
+                                "x" : 0,
+                                "w" : 12,
+                                "name" : "module_1567811075724435",
+                                "label" : "Text",
+                                "type" : "rich_text",
+                                "params" : {
+                                  "css_class" : "pns",
+                                  "css_id" : "",
+                                  "css_id_str" : "",
+                                  "css_style" : "",
+                                  "html" : "<h4>Generate Reports</h4>\n<p>Pellentesque in ipsum et massa efficitur imperdiet</p>",
+                                  "overrideable" : true,
+                                  "per_widget_wrapper_html" : "",
+                                  "wrapping_html" : ""
+                                },
+                                "rows" : [ ],
+                                "rowMetaData" : [ ],
+                                "cells" : [ ],
+                                "cssId" : "",
+                                "cssClass" : "pns",
+                                "cssStyle" : "",
+                                "styles" : null
+                              }
+                            } ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-text",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        }, {
+                          "0" : {
+                            "x" : 0,
+                            "w" : 12,
+                            "name" : "module_1567811075724436",
+                            "label" : "Link",
+                            "type" : "rich_text",
+                            "params" : {
+                              "css_class" : "content-card-link",
+                              "css_id" : "",
+                              "css_id_str" : "",
+                              "css_style" : "",
+                              "html" : "<a href=\"#link-to-helpful-article\">Generate Reports</a>",
+                              "overrideable" : true,
+                              "per_widget_wrapper_html" : "",
+                              "wrapping_html" : ""
+                            },
+                            "rows" : [ ],
+                            "rowMetaData" : [ ],
+                            "cells" : [ ],
+                            "cssId" : "",
+                            "cssClass" : "content-card-link",
+                            "cssStyle" : "",
+                            "styles" : null
+                          }
+                        } ],
+                        "rowMetaData" : [ ],
+                        "cells" : [ ],
+                        "cssId" : "",
+                        "cssClass" : "content-card mb30",
+                        "cssStyle" : "",
+                        "styles" : null
+                      }
+                    } ],
+                    "rowMetaData" : [ ],
+                    "cells" : [ ],
+                    "cssId" : "",
+                    "cssClass" : "equal-height tc",
+                    "cssStyle" : "",
+                    "styles" : null
+                  }
+                } ],
+                "rowMetaData" : [ ],
+                "cells" : [ ],
+                "cssId" : "",
+                "cssClass" : "",
+                "cssStyle" : "",
+                "styles" : null
+              }
+            } ],
+            "rowMetaData" : [ ],
+            "cells" : [ ],
+            "cssId" : "",
+            "cssClass" : "centered md-stack",
+            "cssStyle" : "max-width:100%;",
+            "styles" : null
+          }
+        } ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "content-section sticky-parent",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "",
+        "label" : "",
+        "type" : "section_delimiter",
+        "params" : {
+          "cell" : false,
+          "cells" : [ ],
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "ending_html" : "",
+          "root" : false,
+          "row" : false,
+          "starting_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "module_1567772332100558",
+        "label" : "IGA Footer Full-Width",
+        "type" : "global_group",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "overrideable" : false,
+          "path" : "generated_global_groups/12737555989.html",
+          "per_widget_wrapper_html" : "",
+          "wrapping_html" : "",
+          "generated_template_path" : "generated_global_groups/12737555989.html"
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    }, {
+      "0" : {
+        "x" : 0,
+        "w" : 12,
+        "name" : "Act2_JavaScript__DO_NOT_DELETE_MUST_BE_LAST",
+        "label" : "Act2 JavaScript - DO NOT DELETE, MUST BE LAST",
+        "type" : "global_widget",
+        "params" : {
+          "css_class" : "",
+          "css_id" : "",
+          "css_id_str" : "",
+          "css_style" : "",
+          "ending_html" : "",
+          "overrideable" : false,
+          "starting_html" : ""
+        },
+        "rows" : [ ],
+        "rowMetaData" : [ ],
+        "cells" : [ ],
+        "cssId" : "",
+        "cssClass" : "",
+        "cssStyle" : "",
+        "styles" : null
+      }
+    } ],
+    "rowMetaData" : [ ],
+    "cells" : [ ],
+    "cssId" : "",
+    "cssClass" : "",
+    "cssStyle" : "",
+    "styles" : null
+  }
+}

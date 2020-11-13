@@ -1,0 +1,24 @@
+{% 
+  set sign_obj = {
+    percent: "&percnt;",
+    usd: [ "&dollar;", "&#162;"]
+  }
+%}
+{# check count as a way to check type #}
+{% set counter = module.field_group %}
+<div class="table">
+  {% for count in counter %}
+  {% set sign = sign_obj[count.sign] %}
+  {# macro: if greater than or equal to 0 use dollar sign; if less than 0 use cent sign #}
+  <div class="table-cell">
+    <img src="{{ count.icon.src }}"/>
+    <h2 class="number">
+      <span  style="color: #ff0201;">{{ count.before_text }}</span>
+      <span class="incr" data-cap="{{ count.number_field }}"  style="color: #ff0201;">0</span>{{ sign }}
+      <span  style="color: #ff0201;">{{ count.after_text }}</span>
+      <br>
+      {{ count.richtext_field }}
+    </h2>
+  </div>
+  {% endfor %}
+</div>

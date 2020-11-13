@@ -1,0 +1,30 @@
+[ {
+  "id" : "ee7675f3-1489-7a1b-74c3-4c77891ca0ae",
+  "name" : "hubdbtable_field",
+  "label" : "HubDB table",
+  "required" : false,
+  "locked" : false,
+  "type" : "hubdbtable",
+  "default" : 849089
+}, {
+  "id" : "3964e974-ba00-dc14-889f-63f4a66c85f8",
+  "name" : "text_field",
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "primary_category"
+}, {
+  "id" : "a2907e7d-17d7-b016-e506-cbbe5b98eddf",
+  "name" : "category",
+  "label" : "category",
+  "required" : false,
+  "locked" : false,
+  "display" : "select",
+  "choices" : [ [ "Market", "Market" ], [ "Product", "Product" ] ],
+  "type" : "choice",
+  "default" : "Product"
+} ]

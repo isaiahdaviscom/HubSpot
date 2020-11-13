@@ -1,0 +1,24 @@
+{# https://app.hubspot.com/design-previewer/3870075/modules/35447148315 #}
+{# hs watch "id-content-card-dynamic-v2.module" "/_id/id-content-card-dynamic-v2.module" #}
+{% set columns = module.columns %}
+{% set column_prefix = "col-"%}
+{% set content_group =  module.field_group %}
+{% set title = module.headline %}
+{% set custom_classes = module.add_css %}
+{# horizontal or vertical card #}
+{% set column_class = column_prefix + "sm-" + columns %}
+<h2 class="tc">{{title}}</h2>
+<div class="row {{custom_classes}} card-link-overlay">
+  {% for content in content_group %}
+  <a href="{{ content.content.url}}" class="{{ column_class }} card-link">
+    <div class="card w-overlay">
+      <img src="{{content.image.src}}" class="card-img" alt="{{content.image.alt}}">
+      <div class="overlay"></div>
+      <div class="card-body text-white text-m0">
+        {# title #}
+        {{content.content.html}}
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>

@@ -1,0 +1,28 @@
+[ {
+  "id" : "5a191f74-3183-0e92-9ca6-25baaf49fe6b",
+  "name" : "product_images_db",
+  "label" : "Product Images Table",
+  "required" : false,
+  "locked" : false,
+  "type" : "hubdbtable",
+  "default" : 845070
+}, {
+  "id" : "efc63c1e-6e59-0b1e-718b-1aacb57aa9c7",
+  "name" : "branding_images_db",
+  "label" : "Branding Images Table",
+  "required" : true,
+  "locked" : false,
+  "type" : "hubdbtable",
+  "default" : 849089
+}, {
+  "id" : "7ef15fc6-9c20-6f6a-51b5-7889f06addec",
+  "name" : "label_field",
+  "label" : "Label",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Search"
+} ]

@@ -1,0 +1,73 @@
+<!--
+    templateType: page
+    isAvailableForNewContent: false
+-->
+{# 
+  Append
+  * @param  {dict} key        The first number
+	* @param  {dict} items      The first number
+#}
+{% macro append(key, items) %}
+  {%- set arr = '{"' + key + '":' + [items] + '}' -%}
+{% endmacro %}
+{# 
+  Update and dict 
+	* @param  {dict}  temp      The first number
+	* @param  {dict}  obj       The first number
+	* @param  {int}   counter   The first number
+#}
+{% macro update(temp, obj, counter) %}
+  {% do obj.update( temp|fromjson ) %}
+	{% do obj.update({length: counter }) %}
+{% endmacro %}
+{#
+  * @param  {dict} defaults   The first number
+	* @param  {dict} options    The first number
+	* @param  {dict} resolve    The first number
+#}
+{% macro extend(defaults, options, resolve) %}
+  {% set extended = {} %}
+	{% for prop in defaults %}
+		{% if defaults[prop] %}
+			{{ update('{"' + prop + '":"' + defaults[prop] + '"}', extended, loop.index)}}
+		{% endif %}
+	{% endfor %}
+	{% for key, prop in options.items() %}
+		{% if options[key] %}
+			{{ update('{"' + key + '":"' + options[key] + '"}', extended, loop.index)}}
+		{% endif %}
+	{% endfor %}
+  {% do extended.update(options) %}
+	{% do defaults.update(extended) %}
+{% endmacro %}
+{#
+  Hook to display navigation
+#}
+{% macro the_navigation() %}
+<aside class="h-100 ">
+	<ul class="navbar-nav bg-danger sidebar sidebar-dark accordion toggled" id="accordionSidebar">
+		<!-- Sidebar - Brand -->
+	<!-- 	<a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{page_meta.canonical_url}}">
+				<div class="sidebar-brand-icon rotate-n-15">
+					<i class="fas fa-laugh-wink"></i>
+				</div>
+				<div class="sidebar-brand-text mx-3">{{myHub.contact.company}}</div>
+		</a> -->
+		{% for row in hubdb_table_rows(dynamic_page_hubdb_table_id) %}
+		<hr class="sidebar-divider">
+		<!-- Nav Item {{row.name}} -->
+		<li class="nav-item">
+				<a class="nav-link" href="{{ request.path }}/{{ row.hs_path }}">
+						<div>{{ row.icon }}</div>
+						<div>{% if row.feature == 1 %}<span class="badge badge-warning d-inline">NEW</span>{% endif %}</div>
+						<div><span>{{ row.name }}</span></div>
+				</a>
+		</li>
+		{% endfor %}
+		<!-- Sidebar Toggler (Sidebar) -->
+	<!-- 	<div class="text-center d-none d-md-inline"><button class="rounded-circle border-0" id="sidebarToggle"></button></div> -->
+
+	</ul>
+</aside>
+<!-- End of Sidebar -->
+{% endmacro %}

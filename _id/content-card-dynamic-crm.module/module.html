@@ -1,0 +1,84 @@
+{% set criteria = module.criteria %}
+{% set theme_color = "#ED1C24" %}
+{% set rowCounter = 0 %}
+{% macro dummy(width,height) %}
+  <div>
+    <div class="table" style ="width:100%; height:{{ height }}px;background: {{ theme_color }};">
+      <div class="table-cell cm-text">
+        <h2 class="reverse-text">{{ width }}x{{ height }}</h2>
+      </div>
+    </div>
+  </div>
+{% endmacro %}
+<div class="{{ module.add_css }}" style="width:100%;">
+  {% if module.h1 != "" %}
+      <h2>{{ module.h1 }}</h2>
+  {% endif %}
+  {% set rows = module.field_group %}
+  {% for row in rows %}
+    {# conditional variables #}
+    {% set display = "" %}
+    {% set row_content = row.content %}
+    {% if row.display != true %}{% set display = "visibility-hide" %}{% endif %}
+    {# end conditional variables #}
+    {% if loop.index0 % module.columns == 0%}
+    <div id="row-{{ rowCounter + 1 }}" class="table">
+    {% endif %}
+    {% set xx = contact[criteria]|split(',') %}
+		{% set programMatch = (xx.index(row.crm_query) < 0) and row.crm_query ? "visibility-hide" : "" %}
+    <div class="table-cell content-card with-image {{ display }} {{module.add_css}} col-{{module.columns}} {{row.add_css}} {{ programMatch }}">
+			<div class="content-card-image">
+        {% if !row.img.src %}
+          {% if row.view_specs == true %}
+            {{ dummy(533,324) }}
+          {% endif %}
+        {% else %}
+        <img src="{{ row.img.src }}" alt="{{row.img.alt}}" />
+        {% endif %}
+      </div>
+      {% if row_content.icon %}
+      <div class="content-card-icon theme icon-disc" style="text-align: left;">
+        <i class="fa fa-{{ row_content.icon }}">
+          {% if row_content.icon == "index" %} {{ loop.index }} {% endif %}
+          {% if row_content.icon == "discount_75" %} {{ row_content.icon }}<br/>OFF{% endif %}
+        </i>
+      </div>
+      {% endif %}
+      <div class="content-card-text">
+        {% if row_content.form_field.form_id %}
+          {% form form_to_use="{{ row_content.form_field.form_id }}" 
+            response_response_type="{{ row_content.form_field.response_type }}" 
+            response_message="{{ row_content.form_field.message }}" 
+            response_redirect_id="{{ row_content.form_field.redirect_id }}" 
+            response_redirect_url="{{row_content.form_field.redirect_url}}" 
+            gotowebinar_webinar_key="{{ module.row_content.form_field.gotowebinar_webinar_key }}" %}
+        {% endif %}
+        {{ row_content.html }}
+				{% if row.lists_groups|length > 0 %}
+					{% for list in row.lists_groups %}
+						<div class="accordion-item soft clearfix collapsed" data-accordion-group="MyAccordion" data-accordion-anchor="">
+							 <div class="accordion-header ">
+									<div class="accordion-icon">
+										 <div class="expand-icon">
+												<i class="fas fa fa-chevron-down"></i>
+										 </div>
+										 <div class="collapse-icon">
+												<i class="fas fa fa-chevron-up"></i>
+										 </div>
+									</div>
+									<div class="accordion-title">{{ list.title }}</div>
+							 </div>
+							 <div class="accordion-body clearfix hs-richtext text-small">
+									{{ list.html }}
+							 </div>
+						</div>
+					{% endfor %}
+				{% endif %}
+      </div>
+			{{ row_content.footer }}
+    </div>
+    {% if loop.index0 % module.columns == (module.columns - 1) or loop.index == loop.length %}
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>

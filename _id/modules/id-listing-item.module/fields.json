@@ -1,0 +1,64 @@
+[ {
+  "id" : "2e6fd1fd-976a-f7e7-05ae-f5223813e73f",
+  "name" : "field_group",
+  "label" : "Field group",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "449efba4-f741-f58c-c6c4-6aa2b3459918",
+    "name" : "content",
+    "label" : "Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<h3>Strong Headline</h3>\n<p>Curabitur eleifend lacus nisi, ut aliquam augue maximus sit amet. Integer viverra congue bibendum.</p>\n<p>{{cta('f2a2985f-f5f4-449b-8306-9eecb60aedde')}}</p>"
+  }, {
+    "id" : "4b6fb524-7375-dc3e-3f06-e4992e9a7795",
+    "name" : "category",
+    "label" : "Category",
+    "help_text" : "You can specify multiple categories separated by commas. Example: apple, orange, pear. Please try using one word with alpha-numeric characters only. You can separate multiple words with \"_\". Example: inbound_marketing. This is case sensitive, so use the same as in your Listing Menu. Example: you have #iPhone in your Listing Menu, it should be iPhone here, not iphone.",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  }, {
+    "id" : "33992615-efcd-98b4-c16d-f9eca23d6d47",
+    "name" : "custom_class",
+    "label" : "Custom Class",
+    "help_text" : "A custom class that you can target in CSS to further style this module.",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : ""
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "content" : "<h3>Strong Headline</h3>\n<p>Curabitur eleifend lacus nisi, ut aliquam augue maximus sit amet. Integer viverra congue bibendum.</p>\n<p>{{cta('f2a2985f-f5f4-449b-8306-9eecb60aedde')}}</p>",
+    "custom_class" : ""
+  }
+}, {
+  "id" : "d5e9baa8-eb9f-ea6c-dce1-90a73d3536ac",
+  "name" : "columns",
+  "label" : "Columns",
+  "required" : false,
+  "locked" : false,
+  "display" : "text",
+  "min" : 1,
+  "max" : 4,
+  "step" : 1,
+  "type" : "number",
+  "default" : 1
+} ]

@@ -1,0 +1,40 @@
+{% set columnArr = ['auto','100%','50%','33.3333%','20%'] %}
+{% set columnArray = ['','col-1','col-2','col-3','col-4'] %}
+{#dhd #}
+{% set table = module.hubdbtable_field %}
+{% set query = module.hubdb_query %}
+{# #}
+{% set rows = hubdb_table_rows(table, query) %}
+{% set rowsCount = rows|count %}
+{# #}
+{% set columns = module.field_group %}
+{% set columnId = hubdb_table(table).columns %}
+{# #}
+{%if module.output == true %}<pre>{{rows|escape}}</pre>{%endif%}
+<div class="flex">
+{% for row in rows %}
+    {% set display = "" %}
+    {% set row_content = row.content %}
+    {% if row.display != true %}{% set display = "visibility-hide" %}{% endif %}
+    {% if loop.index0 % module.columns == 0%}
+    <div id="row-{{ loop.index }}" class="table flex-row">
+    {% endif %}
+    <div class="table-cell content-card with-image {{columnArray[module.columns]}} {% if loop.index0 > (rows|count - module.hide) %}visibility-hide{%endif%} no-animation">
+      <div class="content-card-image">
+        <img src="{{ row.thumb_image.url }}" />
+      </div>
+      <div class="content-card-text" style="border-top: 1px solid #EEEEEE;text-align:left;">
+        <h4>{{ row.start_date|datetimeformat('%b %e') }} - {{row.end_date|datetimeformat('%b %e') }}</h4>
+        <p>{{ cta(row.cta_id) }}</p>
+        <p>
+          {% for ask in row.download_list %}
+          <span>{{ row.download_list[loop.index0].name }}</span>
+          {% endfor %}
+        </p>
+      </div>
+    </div>
+    {% if loop.index0 % module.columns == (module.columns - 1) or loop.index == loop.length %}
+    </div>
+    {% endif %}
+{% endfor %}
+</div>

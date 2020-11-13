@@ -1,0 +1,43 @@
+[ {
+  "id" : "f7b77624-0ce1-0938-7bdf-10551ca623af",
+  "name" : "display",
+  "label" : "Display",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+}, {
+  "id" : "f971b9f5-23a3-9688-0436-407896f70620",
+  "name" : "text_field",
+  "label" : "Text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Please do not participate in a Facebook scam about a $100 voucher. Facebook is working to have it removed."
+}, {
+  "id" : "aac226e8-f417-c70b-76b8-97baeff219ea",
+  "name" : "anchor",
+  "label" : "Anchor",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "https://www.iga.com/"
+}, {
+  "id" : "4398ba25-af10-8ba0-cf71-19616cf8b23d",
+  "name" : "button",
+  "label" : "Button",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "View Details"
+} ]

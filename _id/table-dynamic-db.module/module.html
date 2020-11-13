@@ -1,0 +1,69 @@
+{% set table = module.hubdbtable_field %}{% set query = module.hubdb_query %}{% set rows = hubdb_table_rows(table, query) %}{% set columns = module.field_group %}{% set columnId = hubdb_table(table).columns %}
+{%if module.output == true %}<pre>{{rows|escape}}</pre>{%endif%}
+<div id="tableID" class="table-list-container">
+  <span class="search"><input placeholder="Search" class="hs-input"></span>
+  <table class="table-list" data-currentpage="1" cellpadding="10">
+    {% for column in columns %}
+      {% if column.width %}
+      <colgroup style="width: {{column.width}}px"></colgroup>
+      {% else %}
+      <colgroup></colgroup>
+      {% endif %}
+    {% endfor %}
+    <thead>
+      {% for column in columns %}
+      <th class="{% if column.html_type == "tag" %}tags{% endif %}">
+        <button type="button" 
+                class="sort" 
+                data-sort="{{ column.hubdb_column_name }}">
+          {{ column.thead }}
+          <i class="caret"></i>
+        </button>
+      </th>
+      {% endfor %}
+    </thead>
+    <tbody class="list">
+    <!-- encapsulate in another module-->
+    {% for row in rows %}
+      <tr data-timestamp="{{ row.published }}" data-status="3">
+        {% for column in columns %}
+        <!-- thead dynamically generated -->
+        
+        <!-- thead end -->
+        {% set rdata = row[column.hubdb_column_name] %}
+        <td class="minify hidden-sm-down {{ column.hubdb_column_name }} {% if column.html_type == "tag" %}tags{% endif %}" {% if column.html_type == "date" %} style="white-space: nowrap;"{% endif %}>
+        {# if image and table has a url column #}
+        {% if column.html_type == "image" %}
+          <a href="{{ row.url }}" target="_blank">
+            <img style="width:124px;" src="{{rdata.url}}" alt="{{column.html_type}}">
+          </a>
+        {% elif column.html_type == "date" %}
+          {{rdata|datetimeformat('%Y-%m-%d')}}
+        {% elif column.html_type == "tag" %}
+          <i class="{{rdata|lower}} fa fa-circle"></i>
+        {% else %}
+          {# if text and url #}
+          <a href="{{ row.url }}" target="_blank">{{rdata}}</a>
+        {% endif %}
+        </td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+    <!-- end of encapsulation -->
+    </tbody>
+  </table>
+  <table class="table-pagination">
+    <tr>
+        <td class="text-left">
+          <button type="button" class="jPaginateBack hs-button"><i class="fa fa-arrow-left"></i></button>
+        </td>
+        <td colspan="{{ (columns|count) - 2 }}"><ul class="pagination"></ul></td>
+        <td class="text-right">
+          <button type="button" class="jPaginateNext hs-button"><i class="fa fa-arrow-right"></i></button>
+        </td>
+      </tr>
+  </table>
+</div>
+<!-- scripts -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>

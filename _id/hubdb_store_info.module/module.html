@@ -1,0 +1,6 @@
+{% if dynamic_page_hubdb_row %}        
+    <h1>{{ dynamic_page_hubdb_row.hs_name }}</h1>
+    <h2>{{ dynamic_page_hubdb_row.name }}</h2>
+{% endif %}
+
+{{dynamic_page_hubdb_row|pprint}}

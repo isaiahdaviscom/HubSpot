@@ -1,0 +1,57 @@
+{
+  "follow_up_type_automation.label" : {
+    "message" : "Lägg till i arbetsflöde",
+    "description" : null,
+    "placeholders" : null
+  },
+  "follow_up_type_simple.label" : {
+    "message" : "Skicka ett uppföljningsmeddelande via e-post",
+    "description" : null,
+    "placeholders" : null
+  },
+  "form.default.message" : {
+    "message" : "Tack för att du skickade in formuläret.",
+    "description" : null,
+    "placeholders" : null
+  },
+  "form.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "form.label" : {
+    "message" : "Formulär",
+    "description" : null,
+    "placeholders" : null
+  },
+  "form_follow_ups_workflow_id.label" : {
+    "message" : "Arbetsflöde",
+    "description" : null,
+    "placeholders" : null
+  },
+  "notifications_are_overridden.label" : {
+    "message" : "Skicka formuläraviseringar till specifika e-postadresser istället för formulärsförinställningar",
+    "description" : null,
+    "placeholders" : null
+  },
+  "notifications_override_email_addresses.label" : {
+    "message" : "E-postadresser",
+    "description" : null,
+    "placeholders" : null
+  },
+  "sfdc_campaign.label" : {
+    "message" : "Salesforce-kampanj",
+    "description" : null,
+    "placeholders" : null
+  },
+  "simple_email_for_live_id.label" : {
+    "message" : "E-post",
+    "description" : null,
+    "placeholders" : null
+  },
+  "title.label" : {
+    "message" : "Titel på formulär",
+    "description" : null,
+    "placeholders" : null
+  }
+}

@@ -1,0 +1,86 @@
+.store-address p, .store-hours p, .store-departments p, .store-payments p, .store-departments ul, .store-payments ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.store-departments ul li, .store-payments ul li {
+    float: left;
+    padding-right: .25em;
+}
+
+.store-address, .store-hours, .store-departments, .store-payments{
+    margin: 1em 0;    
+}
+
+
+.store-departments ul li:after, .store-payments ul li:after{
+    content: ' -';
+}
+
+.store-departments ul li:last-child:after, .store-payments ul li:last-child:after{
+    content: '';
+}
+
+#map_canvas1 {
+ height: 500px; 
+}
+
+.store-search {
+    margin: 1em 0;
+}
+
+.search-additional-links p {
+    margin: 0;
+}
+
+.result-heading {
+	margin-bottom: .1em;
+}
+
+.store-location-details {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+.store-location-directions {
+    padding: .5em;
+}
+
+.store-logo {
+    text-align: center;
+}
+
+.store-location-details h3 {
+	color:#fff;  
+  margin-bottom: .5em;
+}
+.store-location-details a {
+  color: #fff;
+}
+.store-location-details a:hover {
+  color: #fff;
+  text-decoration:none;
+}
+
+.store-website-link i {
+    font-size: .5em;
+    position: absolute;
+    top: .4rem;
+    padding-left: .5em;
+}
+
+.store-website-link {
+    position: relative;
+}
+{#
+.store-location {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+#}
+
+.store-location {
+    border: 1px solid #ccc;
+}

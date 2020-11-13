@@ -1,0 +1,63 @@
+<form class="controls" id="Filters" style="text-align:left;">
+  <fieldset class="filter-group search">
+    <h4>Search</h4>
+    <input type="text" placeholder="Search ..." />
+  </fieldset>
+  <button id="ChangeLayout">Grid</button>
+  <fieldset class="filter-group checkboxes">
+    <h4>Departments</h4>
+    <ul data-store-category="departments">
+      <li>
+        <div class="checkbox">
+          <input type="checkbox" value=".square" />
+          <label>Dairy</label>
+        </div>
+      </li>
+      <li>
+        <div class="checkbox">
+          <input type="checkbox" value=".circle" />
+          <label>Meat</label>
+        </div>
+      </li>
+      <li>
+        <div class="checkbox">
+          <input type="checkbox" value=".triangle" />
+          <label>Deli</label>
+        </div>
+      </li>
+      <li>
+        <div class="checkbox">
+          <input type="checkbox" value=".triangle" />
+          <label>Bakery</label>
+        </div>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset class="filter-group checkboxes">
+    <h4>Colours</h4>
+    <div class="checkbox">
+      <input type="checkbox" value=".white" />
+      <label>White</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".green" />
+      <label>Green</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".blue" />
+      <label>Blue</label>
+    </div>
+  </fieldset>
+  <fieldset class="filter-group checkboxes">
+    <h4>Sizes</h4>
+    <div class="checkbox">
+      <input type="checkbox" value=".sm" />
+      <label>Small</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" value=".lrg" />
+      <label>Large</label>
+    </div>
+  </fieldset>
+  <button id="Reset">Clear Filters</button>
+</form>

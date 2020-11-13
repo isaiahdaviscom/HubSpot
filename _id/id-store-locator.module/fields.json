@@ -1,0 +1,18 @@
+[ {
+  "id" : "3408dc6f-c370-37d6-4e3c-c9b36f50dcb8",
+  "name" : "hubdb_table_section",
+  "label" : "HubDB table-section",
+  "required" : false,
+  "locked" : false,
+  "type" : "hubdbtable",
+  "default" : 2622835
+}, {
+  "id" : "a39beb1f-70cb-8bde-827b-0384642b2132",
+  "name" : "devop",
+  "label" : "DevOp",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+} ]
