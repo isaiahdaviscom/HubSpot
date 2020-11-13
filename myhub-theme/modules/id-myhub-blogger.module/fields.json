@@ -1,0 +1,35 @@
+[ {
+  "id" : "4bdce5d2-8670-784d-ddbd-af1709f3fab9",
+  "name" : "number_field",
+  "label" : "Number",
+  "required" : false,
+  "locked" : true,
+  "display" : "text",
+  "step" : 1,
+  "type" : "number",
+  "default" : 5
+}, {
+  "id" : "e9a4ba8a-ba7e-56cd-8c08-9b12a37b0063",
+  "name" : "field_group",
+  "label" : "Field group",
+  "required" : false,
+  "locked" : true,
+  "occurrence" : {
+    "min" : null,
+    "max" : 5,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "ce751dec-7bdf-643c-1cca-bb70dd8a6810",
+    "name" : "blog_field",
+    "label" : "Blog",
+    "required" : false,
+    "locked" : false,
+    "type" : "blog",
+    "default" : null
+  } ],
+  "tab" : "CONTENT",
+  "type" : "group",
+  "default" : { }
+} ]

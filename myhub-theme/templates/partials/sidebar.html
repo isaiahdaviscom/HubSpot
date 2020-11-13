@@ -1,0 +1,20 @@
+<!--
+  templateType: global_partial
+  label: Sidebar
+-->
+{% set hubdb_query = "" %}
+<aside class="h-100 d-flex">
+	<ul class="navbar-nav bg-danger sidebar sidebar-dark accordion toggled" id="accordionSidebar" style="justify-content: center;align-items: center;">
+		{% for row in hubdb_table_rows('2655950',hubdb_query) %}
+		<hr class="sidebar-divider">
+		<!-- Nav Item {{row.name}} -->
+		<li class="nav-item">
+				<a class="nav-link" href="/corporate/myhub-v2/{{ row.hs_path }}">
+						<div>{{ row.icon }}</div>
+						<div>{% if row.feature == 1 %}<span class="badge badge-warning d-inline">NEW</span>{% endif %}</div>
+						<div><span>{{ row.name }}</span></div>
+				</a>
+		</li>
+		{% endfor %}
+	</ul>
+</aside>
