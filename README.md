@@ -11,3 +11,11 @@ https://developers.hubspot.com/docs/cms/developer-reference/local-development-cm
 
 Follow Me @
 https://medium.com/@isaiahdavism/
+
+## HubDb
+### Query
+#### SortBy
+Ascending - sortby-asc
+sortby={hubdb_column}
+Decending - sortby-desc
+sortby=-{hubdb_column}
