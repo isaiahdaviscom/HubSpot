@@ -11,3 +11,6 @@ https://developers.hubspot.com/docs/cms/developer-reference/local-development-cm
 
 Follow Me @
 https://medium.com/@isaiahdavism/
+
+
+https://docs.google.com/spreadsheets/d/1L0sLE9IamJCRWD5DcKakTQ3zeMFFiZ-qOIMkbmc14sI/edit#gid=1386834576
