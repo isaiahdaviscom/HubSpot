@@ -42,19 +42,6 @@
       height: inherit;
     }
   </style>
-  <script>
-    var requestOptions = {
-      'method': 'GET',
-      'headers': {
-          'Content-Type': 'application/json',
-      }
-    };
-
-    fetch("http://hubspot-developers-1yb6yu3-8605872.hs-sites.com/_hcms/api/congratulations", requestOptions)
-      .then(response => response.text())
-      .then(result => console.log(result))
-      .catch(error => console.log('error', error));
-  </script>
 </head>
 
 <body>

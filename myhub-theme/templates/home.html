@@ -4,7 +4,7 @@
   label: Home
   screenshotPath: ../images/template-previews/home.png
 -->
-{% include "./partials/functions.html" %}
+{% include './partials/functions.html' %}
 {% extends "./layouts/base.html" %}
 {% set myHub = APP %}
 <!-- {{myHub}} -->
@@ -12,7 +12,6 @@
 <!-- Page Heading -->
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
   <h1 class="h3 mb-0 text-gray-800">Welcome {{myHub.contact.fullname}}</h1>
-  <p>Hello</p>
   <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" onclick="window.print()"><i
       class="fas fa-print fa-sm text-white-50"></i> Print Report</a>
 </div>
@@ -283,8 +282,6 @@
             the Bootstrap framework, especially the utility classes.</p>
           <button id="testbtn">Get External Content</button>
           <div id="div1"></div>
-
-          <script text="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
           <script text="text/javascript">
             $(document).ready(function () {
               $("button#testbtn").click(function () {
