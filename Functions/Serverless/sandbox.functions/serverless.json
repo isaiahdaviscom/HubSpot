@@ -1,0 +1,11 @@
+// place this in your serverless.json file, without this comment
+{
+    "runtime": "nodejs12.x",
+    "version": "1.0",
+    "endpoints": {
+        "congratulation": {
+          "method": "GET",
+          "file": "congratulation.js"
+        }
+    }
+ }
