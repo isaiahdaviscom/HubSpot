@@ -12,8 +12,6 @@ https://developers.hubspot.com/docs/cms/developer-reference/local-development-cm
 Follow Me @
 https://medium.com/@isaiahdavism/
 
-<<<<<<< HEAD
-
 https://docs.google.com/spreadsheets/d/1L0sLE9IamJCRWD5DcKakTQ3zeMFFiZ-qOIMkbmc14sI/edit#gid=1386834576
 =======
 ## HubDb
@@ -23,4 +21,3 @@ Ascending - sortby-asc
 sortby={hubdb_column}
 Decending - sortby-desc
 sortby=-{hubdb_column}
->>>>>>> de9e00de229038ffaea302e3554cc171d2c01c53
