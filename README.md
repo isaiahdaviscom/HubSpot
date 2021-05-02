@@ -1,3 +1,5 @@
+[![.github/workflows/main.yml](https://github.com/isaiahdaviscom/HubSpot/actions/workflows/main.yml/badge.svg)](https://github.com/isaiahdaviscom/HubSpot/actions/workflows/main.yml)
+
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [CLI](https://stackoverflow.com/questions/28329429/how-to-create-custom-cli-commands-for-own-npm-package)
 [NPM](https://docs.npmjs.com/misc/scripts)
