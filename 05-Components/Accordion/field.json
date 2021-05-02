@@ -2,6 +2,6 @@
   {
     "label": "Accordion",
     "name": "accordion",
-    "required": false
+    "required": true
   }
 ]
