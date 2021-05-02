@@ -1,4 +1,6 @@
-[![.github/workflows/main.yml](https://github.com/isaiahdaviscom/HubSpot/actions/workflows/main.yml/badge.svg)](https://github.com/isaiahdaviscom/HubSpot/actions/workflows/main.yml)<a href="https://www.buymeacoffee.com/gbraad" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+<a href="https://www.buymeacoffee.com/gbraad" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
+[![.github/workflows/main.yml](https://github.com/isaiahdaviscom/HubSpot/actions/workflows/main.yml/badge.svg)](https://github.com/isaiahdaviscom/HubSpot/actions/workflows/main.yml)
 
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [CLI](https://stackoverflow.com/questions/28329429/how-to-create-custom-cli-commands-for-own-npm-package)
