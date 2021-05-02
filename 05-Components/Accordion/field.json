@@ -1,6 +1,7 @@
 [
   {
     "label": "Accordion",
-    "name": "accordion"
+    "name": "accordion",
+    "required": true
   }
 ]
