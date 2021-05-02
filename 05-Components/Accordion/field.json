@@ -1,7 +1,7 @@
 [
-    {
-        "label":"Accordion",
-        "name":"accordion",
-        "required":true
-    }
+  {
+    "label": "Accordion",
+    "name": "accordion",
+    "required": true
+  }
 ]
