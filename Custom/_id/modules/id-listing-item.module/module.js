@@ -1,1 +1,0 @@
-document.querySelector('li a.active').click();

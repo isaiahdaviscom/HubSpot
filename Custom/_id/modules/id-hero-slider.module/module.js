@@ -1,1 +1,0 @@
-console.log(document.getElementById('hs-cta-img-a06e1440-ee53-4b97-a1db-c8371aa57dd4'))

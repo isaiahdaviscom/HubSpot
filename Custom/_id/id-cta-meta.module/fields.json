@@ -1,9 +1,0 @@
-[ {
-  "id" : "280e0661-9aee-8fb8-45c2-45fc4773138a",
-  "name" : "cta_field",
-  "label" : "CTA",
-  "required" : false,
-  "locked" : false,
-  "type" : "cta",
-  "default" : "3538f2fe-f44c-40e9-b9fd-1aad352d3750"
-} ]

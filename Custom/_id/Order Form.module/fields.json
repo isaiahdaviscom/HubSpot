@@ -1,8 +1,0 @@
-[ {
-  "id" : "5ce27278-e274-61ba-5b70-fb1c096aab25",
-  "name" : "hubdbtable_field",
-  "label" : "HubDB table field",
-  "required" : false,
-  "locked" : false,
-  "type" : "hubdbtable"
-} ]
